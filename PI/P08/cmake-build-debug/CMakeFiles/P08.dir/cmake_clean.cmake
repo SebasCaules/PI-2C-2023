@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P08.dir/Ej6.c.o"
-  "CMakeFiles/P08.dir/Ej6.c.o.d"
   "CMakeFiles/P08.dir/Ej7.c.o"
   "CMakeFiles/P08.dir/Ej7.c.o.d"
   "CMakeFiles/P08.dir/getnum.c.o"
