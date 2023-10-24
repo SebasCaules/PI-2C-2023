@@ -79,6 +79,9 @@
 		<Unit filename="/mnt/d/PI_Backup/PI/P08/Ej6.c">
 			<Option target="P08"/>
 		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P08/Ej7.c">
+			<Option target="P08"/>
+		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P08/getnum.c">
 			<Option target="P08"/>
 		</Unit>

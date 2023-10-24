@@ -153,6 +153,30 @@ Ej6.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P08.dir/build.make CMakeFiles/P08.dir/Ej6.c.s
 .PHONY : Ej6.c.s
 
+Ej7.o: Ej7.c.o
+.PHONY : Ej7.o
+
+# target to build an object file
+Ej7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P08.dir/build.make CMakeFiles/P08.dir/Ej7.c.o
+.PHONY : Ej7.c.o
+
+Ej7.i: Ej7.c.i
+.PHONY : Ej7.i
+
+# target to preprocess a source file
+Ej7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P08.dir/build.make CMakeFiles/P08.dir/Ej7.c.i
+.PHONY : Ej7.c.i
+
+Ej7.s: Ej7.c.s
+.PHONY : Ej7.s
+
+# target to generate assembly for a file
+Ej7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P08.dir/build.make CMakeFiles/P08.dir/Ej7.c.s
+.PHONY : Ej7.c.s
+
 getnum.o: getnum.c.o
 .PHONY : getnum.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... Ej6.o"
 	@echo "... Ej6.i"
 	@echo "... Ej6.s"
+	@echo "... Ej7.o"
+	@echo "... Ej7.i"
+	@echo "... Ej7.s"
 	@echo "... getnum.o"
 	@echo "... getnum.i"
 	@echo "... getnum.s"

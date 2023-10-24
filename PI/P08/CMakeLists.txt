@@ -7,5 +7,5 @@ set(CMAKE_C_STANDARD 99)
 add_executable(P08
         random.c
         getnum.c
-        Ej6.c
+        Ej7.c
 )
