@@ -1,0 +1,3 @@
+F:/PI/1Parcial/cmake-build-debug/CMakeFiles/1Parcial.dir
+F:/PI/1Parcial/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/PI/1Parcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir

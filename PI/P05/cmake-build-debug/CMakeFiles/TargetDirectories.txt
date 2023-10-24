@@ -1,0 +1,3 @@
+F:/PI/P05/cmake-build-debug/CMakeFiles/P05.dir
+F:/PI/P05/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/PI/P05/cmake-build-debug/CMakeFiles/rebuild_cache.dir

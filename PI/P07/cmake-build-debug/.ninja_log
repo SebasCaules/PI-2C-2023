@@ -1,0 +1,5 @@
+# ninja log v5
+2	499	7186863860000000	build.ninja	65eaf3d9555bd0af
+365	855	7183222740000000	P07.exe	44e114e944a582bb
+2	227	7186850660000000	CMakeFiles/P07.dir/Taller-6-10/getnum.c.obj	4f1472af19c502da
+7	221	7186850660000000	CMakeFiles/P07.dir/Taller-6-10/Ej3.c.obj	b4b8bff08e6c8a2a

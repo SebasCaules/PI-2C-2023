@@ -1,0 +1,3 @@
+1) corre el programa
+2) ??
+3) corre el programa e imprime la salida en un archivo out.txt

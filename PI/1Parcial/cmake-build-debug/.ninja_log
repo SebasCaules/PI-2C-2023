@@ -1,0 +1,9 @@
+# ninja log v5
+2	490	7182303600000000	build.ninja	3b73ac6803786dcf
+2	150	7176247880000000	CMakeFiles/1Parcial.dir/1C-2023/Ej2.c.obj	188d33028c0731d6
+2	158	7176469620000000	CMakeFiles/1Parcial.dir/1C-2023/Ej3.c.obj	dd836dfdc71f9afa
+2	160	7176147500000000	CMakeFiles/1Parcial.dir/2C-2014/Ej2.c.obj	3f15483da3217f75
+1	167	7176223000000000	CMakeFiles/1Parcial.dir/1C-2023/Ej1.c.obj	9d9f3e0e2bf5eab7
+159	351	7176469620000000	1Parcial.exe	b30e027d01120ff1
+2	155	7176199820000000	CMakeFiles/1Parcial.dir/2C-2014/Ej3.c.obj	dca965ec6fc96a0c
+2	157	7176459040000000	CMakeFiles/1Parcial.dir/1C-2023/prueba.c.obj	eeda8158c4c530f7
