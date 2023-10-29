@@ -7,4 +7,5 @@ set(CMAKE_C_STANDARD 99)
 add_executable(P09
         Ej17.c
         Ej18.c
+        Ej19.c
 )

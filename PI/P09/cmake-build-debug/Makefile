@@ -177,6 +177,30 @@ Ej18.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej18.c.s
 .PHONY : Ej18.c.s
 
+Ej19.o: Ej19.c.o
+.PHONY : Ej19.o
+
+# target to build an object file
+Ej19.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej19.c.o
+.PHONY : Ej19.c.o
+
+Ej19.i: Ej19.c.i
+.PHONY : Ej19.i
+
+# target to preprocess a source file
+Ej19.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej19.c.i
+.PHONY : Ej19.c.i
+
+Ej19.s: Ej19.c.s
+.PHONY : Ej19.s
+
+# target to generate assembly for a file
+Ej19.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej19.c.s
+.PHONY : Ej19.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... Ej18.o"
 	@echo "... Ej18.i"
 	@echo "... Ej18.s"
+	@echo "... Ej19.o"
+	@echo "... Ej19.i"
+	@echo "... Ej19.s"
 .PHONY : help
 
 
