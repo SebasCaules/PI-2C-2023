@@ -1,4 +1,4 @@
-CMakeFiles/P09.dir/Ej10.c.o: /mnt/d/PI_Backup/PI/P09/Ej10.c \
+CMakeFiles/P09.dir/Ej19.c.o: /mnt/d/PI_Backup/PI/P09/Ej19.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -21,8 +21,4 @@ CMakeFiles/P09.dir/Ej10.c.o: /mnt/d/PI_Backup/PI/P09/Ej10.c \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/assert.h \
- /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h
