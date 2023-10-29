@@ -79,6 +79,9 @@
 		<Unit filename="/mnt/d/PI_Backup/PI/P09/Ej17.c">
 			<Option target="P09"/>
 		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P09/Ej18.c">
+			<Option target="P09"/>
+		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P09/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

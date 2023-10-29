@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "P09"
+			"path" : "P07"
 		}
 	],
 	"backtrace" : 1,
@@ -53,11 +53,12 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
-	"id" : "P09::@6890427a1f51a3e7e1df",
+	"id" : "P07::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -73,8 +74,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "P09",
-	"nameOnDisk" : "P09",
+	"name" : "P07",
+	"nameOnDisk" : "P07",
 	"paths" : 
 	{
 		"build" : ".",
@@ -87,7 +88,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2
 			]
 		}
 	],
@@ -96,13 +98,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Ej10.c",
+			"path" : "getnum.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Ej11.c",
+			"path" : "random.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Ej8.c",
 			"sourceGroupIndex" : 0
 		}
 	],
