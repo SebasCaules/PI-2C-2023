@@ -1,1 +1,1 @@
-/usr/bin/cc -pedantic -Wall -std=c99 -fsanitize=address -g -lm -g CMakeFiles/P09.dir/Ej10.c.o CMakeFiles/P09.dir/Ej11.c.o -o P09 
+/usr/bin/cc -pedantic -Wall -std=c99 -fsanitize=address -g -lm -g CMakeFiles/P09.dir/Ej17.c.o -o P09 

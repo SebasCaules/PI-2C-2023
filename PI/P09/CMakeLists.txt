@@ -5,6 +5,5 @@ set(CMAKE_C_FLAGS "-pedantic -Wall -std=c99 -fsanitize=address -g -lm")
 set(CMAKE_C_STANDARD 99)
 
 add_executable(P09
-        Ej10.c
-        Ej11.c
+        Ej17.c
 )

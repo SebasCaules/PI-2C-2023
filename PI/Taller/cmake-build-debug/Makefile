@@ -129,77 +129,77 @@ Taller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/build
 .PHONY : Taller/fast
 
-20-10/Ej3.o: 20-10/Ej3.c.o
-.PHONY : 20-10/Ej3.o
+27-10/Ej3.o: 27-10/Ej3.c.o
+.PHONY : 27-10/Ej3.o
 
 # target to build an object file
-20-10/Ej3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/Ej3.c.o
-.PHONY : 20-10/Ej3.c.o
+27-10/Ej3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/Ej3.c.o
+.PHONY : 27-10/Ej3.c.o
 
-20-10/Ej3.i: 20-10/Ej3.c.i
-.PHONY : 20-10/Ej3.i
+27-10/Ej3.i: 27-10/Ej3.c.i
+.PHONY : 27-10/Ej3.i
 
 # target to preprocess a source file
-20-10/Ej3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/Ej3.c.i
-.PHONY : 20-10/Ej3.c.i
+27-10/Ej3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/Ej3.c.i
+.PHONY : 27-10/Ej3.c.i
 
-20-10/Ej3.s: 20-10/Ej3.c.s
-.PHONY : 20-10/Ej3.s
+27-10/Ej3.s: 27-10/Ej3.c.s
+.PHONY : 27-10/Ej3.s
 
 # target to generate assembly for a file
-20-10/Ej3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/Ej3.c.s
-.PHONY : 20-10/Ej3.c.s
+27-10/Ej3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/Ej3.c.s
+.PHONY : 27-10/Ej3.c.s
 
-20-10/getnum.o: 20-10/getnum.c.o
-.PHONY : 20-10/getnum.o
+27-10/getnum.o: 27-10/getnum.c.o
+.PHONY : 27-10/getnum.o
 
 # target to build an object file
-20-10/getnum.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/getnum.c.o
-.PHONY : 20-10/getnum.c.o
+27-10/getnum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/getnum.c.o
+.PHONY : 27-10/getnum.c.o
 
-20-10/getnum.i: 20-10/getnum.c.i
-.PHONY : 20-10/getnum.i
+27-10/getnum.i: 27-10/getnum.c.i
+.PHONY : 27-10/getnum.i
 
 # target to preprocess a source file
-20-10/getnum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/getnum.c.i
-.PHONY : 20-10/getnum.c.i
+27-10/getnum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/getnum.c.i
+.PHONY : 27-10/getnum.c.i
 
-20-10/getnum.s: 20-10/getnum.c.s
-.PHONY : 20-10/getnum.s
+27-10/getnum.s: 27-10/getnum.c.s
+.PHONY : 27-10/getnum.s
 
 # target to generate assembly for a file
-20-10/getnum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/getnum.c.s
-.PHONY : 20-10/getnum.c.s
+27-10/getnum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/getnum.c.s
+.PHONY : 27-10/getnum.c.s
 
-20-10/random.o: 20-10/random.c.o
-.PHONY : 20-10/random.o
+27-10/random.o: 27-10/random.c.o
+.PHONY : 27-10/random.o
 
 # target to build an object file
-20-10/random.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/random.c.o
-.PHONY : 20-10/random.c.o
+27-10/random.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/random.c.o
+.PHONY : 27-10/random.c.o
 
-20-10/random.i: 20-10/random.c.i
-.PHONY : 20-10/random.i
+27-10/random.i: 27-10/random.c.i
+.PHONY : 27-10/random.i
 
 # target to preprocess a source file
-20-10/random.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/random.c.i
-.PHONY : 20-10/random.c.i
+27-10/random.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/random.c.i
+.PHONY : 27-10/random.c.i
 
-20-10/random.s: 20-10/random.c.s
-.PHONY : 20-10/random.s
+27-10/random.s: 27-10/random.c.s
+.PHONY : 27-10/random.s
 
 # target to generate assembly for a file
-20-10/random.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/20-10/random.c.s
-.PHONY : 20-10/random.c.s
+27-10/random.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/random.c.s
+.PHONY : 27-10/random.c.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Taller"
-	@echo "... 20-10/Ej3.o"
-	@echo "... 20-10/Ej3.i"
-	@echo "... 20-10/Ej3.s"
-	@echo "... 20-10/getnum.o"
-	@echo "... 20-10/getnum.i"
-	@echo "... 20-10/getnum.s"
-	@echo "... 20-10/random.o"
-	@echo "... 20-10/random.i"
-	@echo "... 20-10/random.s"
+	@echo "... 27-10/Ej3.o"
+	@echo "... 27-10/Ej3.i"
+	@echo "... 27-10/Ej3.s"
+	@echo "... 27-10/getnum.o"
+	@echo "... 27-10/getnum.i"
+	@echo "... 27-10/getnum.s"
+	@echo "... 27-10/random.o"
+	@echo "... 27-10/random.i"
+	@echo "... 27-10/random.s"
 .PHONY : help
 
 

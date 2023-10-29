@@ -5,7 +5,6 @@
 void invierte(char *sEntrada, char *sSalida);
 
 int main(void) {
-
     char s[20] = {0};
 
     invierte("1234567890", s);
