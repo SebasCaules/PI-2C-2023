@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/P11.dir/main.c.o -o P11 

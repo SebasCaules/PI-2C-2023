@@ -1,0 +1,3 @@
+/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles/P11.dir
+/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles/rebuild_cache.dir
