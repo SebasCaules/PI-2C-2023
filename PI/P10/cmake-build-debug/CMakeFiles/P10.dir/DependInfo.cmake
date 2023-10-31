@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/PI_Backup/PI/P09/Ej19.c" "CMakeFiles/P09.dir/Ej19.c.o" "gcc" "CMakeFiles/P09.dir/Ej19.c.o.d"
+  "/mnt/d/PI_Backup/PI/P10/getnum.c" "CMakeFiles/P10.dir/getnum.c.o" "gcc" "CMakeFiles/P10.dir/getnum.c.o.d"
+  "/mnt/d/PI_Backup/PI/P10/main.c" "CMakeFiles/P10.dir/main.c.o" "gcc" "CMakeFiles/P10.dir/main.c.o.d"
   )
 
 # Targets to which this target links.

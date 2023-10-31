@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGS = -pedantic -Wall -std=c99 -fsanitize=address -g -lm -g -fdiagnostics-color=always -std=gnu99
+C_FLAGS = -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g -fdiagnostics-color=always -std=gnu99
 

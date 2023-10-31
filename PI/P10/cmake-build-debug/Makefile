@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/d/PI_Backup/PI/P09
+CMAKE_SOURCE_DIR = /mnt/d/PI_Backup/PI/P10
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/d/PI_Backup/PI/P09/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/d/PI_Backup/PI/P10/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/P09/cmake-build-debug/CMakeFiles /mnt/d/PI_Backup/PI/P09/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/P10/cmake-build-debug/CMakeFiles /mnt/d/PI_Backup/PI/P10/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/P09/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/P10/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,41 +117,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named P09
+# Target rules for targets named P10
 
 # Build rule for target.
-P09: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P09
-.PHONY : P09
+P10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 P10
+.PHONY : P10
 
 # fast build rule for target.
-P09/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/build
-.PHONY : P09/fast
+P10/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/build
+.PHONY : P10/fast
 
-Ej19.o: Ej19.c.o
-.PHONY : Ej19.o
+getnum.o: getnum.c.o
+.PHONY : getnum.o
 
 # target to build an object file
-Ej19.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej19.c.o
-.PHONY : Ej19.c.o
+getnum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/getnum.c.o
+.PHONY : getnum.c.o
 
-Ej19.i: Ej19.c.i
-.PHONY : Ej19.i
+getnum.i: getnum.c.i
+.PHONY : getnum.i
 
 # target to preprocess a source file
-Ej19.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej19.c.i
-.PHONY : Ej19.c.i
+getnum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/getnum.c.i
+.PHONY : getnum.c.i
 
-Ej19.s: Ej19.c.s
-.PHONY : Ej19.s
+getnum.s: getnum.c.s
+.PHONY : getnum.s
 
 # target to generate assembly for a file
-Ej19.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P09.dir/build.make CMakeFiles/P09.dir/Ej19.c.s
-.PHONY : Ej19.c.s
+getnum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/getnum.c.s
+.PHONY : getnum.c.s
+
+main.o: main.c.o
+.PHONY : main.o
+
+# target to build an object file
+main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/main.c.o
+.PHONY : main.c.o
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... P09"
-	@echo "... Ej19.o"
-	@echo "... Ej19.i"
-	@echo "... Ej19.s"
+	@echo "... P10"
+	@echo "... getnum.o"
+	@echo "... getnum.i"
+	@echo "... getnum.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

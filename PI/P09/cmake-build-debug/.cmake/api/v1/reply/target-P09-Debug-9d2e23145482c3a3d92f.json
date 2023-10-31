@@ -35,7 +35,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-pedantic -Wall -std=c99 -fsanitize=address -g -lm -g -std=gnu99 -fdiagnostics-color=always"
+					"fragment" : "-pedantic -Wall -std=c99 -fsanitize=address -g -lm -g -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu99"
 				}
 			],
 			"language" : "C",
