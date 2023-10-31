@@ -4,6 +4,7 @@ project(P11 C)
 set(CMAKE_C_FLAGS "-Wall -pedantic -std=c99 -lm -g -fsanitize=address")
 set(CMAKE_C_STANDARD 99)
 
-add_executable(P10
+add_executable(P11
         EjMenuMaths.c
-        getnum.c)
+        getnum.c
+)
