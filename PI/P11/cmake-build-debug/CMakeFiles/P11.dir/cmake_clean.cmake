@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P11.dir/main.c.o"
-  "CMakeFiles/P11.dir/main.c.o.d"
+  "CMakeFiles/P11.dir/EjMenuMaths.c.o"
+  "CMakeFiles/P11.dir/EjMenuMaths.c.o.d"
+  "CMakeFiles/P11.dir/getnum.c.o"
+  "CMakeFiles/P11.dir/getnum.c.o.d"
   "P11"
   "P11.pdb"
 )

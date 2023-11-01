@@ -129,6 +129,30 @@ P10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/build
 .PHONY : P10/fast
 
+Ej5.o: Ej5.c.o
+.PHONY : Ej5.o
+
+# target to build an object file
+Ej5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej5.c.o
+.PHONY : Ej5.c.o
+
+Ej5.i: Ej5.c.i
+.PHONY : Ej5.i
+
+# target to preprocess a source file
+Ej5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej5.c.i
+.PHONY : Ej5.c.i
+
+Ej5.s: Ej5.c.s
+.PHONY : Ej5.s
+
+# target to generate assembly for a file
+Ej5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej5.c.s
+.PHONY : Ej5.c.s
+
 getnum.o: getnum.c.o
 .PHONY : getnum.o
 
@@ -153,29 +177,53 @@ getnum.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/getnum.c.s
 .PHONY : getnum.c.s
 
-main.o: main.c.o
-.PHONY : main.o
+random.o: random.c.o
+.PHONY : random.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/main.c.o
-.PHONY : main.c.o
+random.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/random.c.o
+.PHONY : random.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+random.i: random.c.i
+.PHONY : random.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/main.c.i
-.PHONY : main.c.i
+random.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/random.c.i
+.PHONY : random.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+random.s: random.c.s
+.PHONY : random.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/main.c.s
-.PHONY : main.c.s
+random.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/random.c.s
+.PHONY : random.c.s
+
+utillist.o: utillist.c.o
+.PHONY : utillist.o
+
+# target to build an object file
+utillist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/utillist.c.o
+.PHONY : utillist.c.o
+
+utillist.i: utillist.c.i
+.PHONY : utillist.i
+
+# target to preprocess a source file
+utillist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/utillist.c.i
+.PHONY : utillist.c.i
+
+utillist.s: utillist.c.s
+.PHONY : utillist.s
+
+# target to generate assembly for a file
+utillist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/utillist.c.s
+.PHONY : utillist.c.s
 
 # Help Target
 help:
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... P10"
+	@echo "... Ej5.o"
+	@echo "... Ej5.i"
+	@echo "... Ej5.s"
 	@echo "... getnum.o"
 	@echo "... getnum.i"
 	@echo "... getnum.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... random.o"
+	@echo "... random.i"
+	@echo "... random.s"
+	@echo "... utillist.o"
+	@echo "... utillist.i"
+	@echo "... utillist.s"
 .PHONY : help
 
 

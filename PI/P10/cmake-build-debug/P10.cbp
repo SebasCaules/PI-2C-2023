@@ -76,13 +76,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/PI_Backup/PI/P10/Ej5.c">
+			<Option target="P10"/>
+		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P10/getnum.c">
 			<Option target="P10"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P10/getnum.h">
 			<Option target="P10"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P10/main.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P10/random.c">
+			<Option target="P10"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P10/random.h">
+			<Option target="P10"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P10/utillist.c">
+			<Option target="P10"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P10/utillist.h">
 			<Option target="P10"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P10/CMakeLists.txt">

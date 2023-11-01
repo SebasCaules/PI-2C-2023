@@ -129,29 +129,53 @@ P11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/build
 .PHONY : P11/fast
 
-main.o: main.c.o
-.PHONY : main.o
+EjMenuMaths.o: EjMenuMaths.c.o
+.PHONY : EjMenuMaths.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/main.c.o
-.PHONY : main.c.o
+EjMenuMaths.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/EjMenuMaths.c.o
+.PHONY : EjMenuMaths.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+EjMenuMaths.i: EjMenuMaths.c.i
+.PHONY : EjMenuMaths.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/main.c.i
-.PHONY : main.c.i
+EjMenuMaths.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/EjMenuMaths.c.i
+.PHONY : EjMenuMaths.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+EjMenuMaths.s: EjMenuMaths.c.s
+.PHONY : EjMenuMaths.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/main.c.s
-.PHONY : main.c.s
+EjMenuMaths.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/EjMenuMaths.c.s
+.PHONY : EjMenuMaths.c.s
+
+getnum.o: getnum.c.o
+.PHONY : getnum.o
+
+# target to build an object file
+getnum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/getnum.c.o
+.PHONY : getnum.c.o
+
+getnum.i: getnum.c.i
+.PHONY : getnum.i
+
+# target to preprocess a source file
+getnum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/getnum.c.i
+.PHONY : getnum.c.i
+
+getnum.s: getnum.c.s
+.PHONY : getnum.s
+
+# target to generate assembly for a file
+getnum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/getnum.c.s
+.PHONY : getnum.c.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... P11"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... EjMenuMaths.o"
+	@echo "... EjMenuMaths.i"
+	@echo "... EjMenuMaths.s"
+	@echo "... getnum.o"
+	@echo "... getnum.i"
+	@echo "... getnum.s"
 .PHONY : help
 
 
