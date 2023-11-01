@@ -60,7 +60,7 @@ int main(void) {
 }
 
 TList restaList(TList lista1, TList lista2) {
-    if (lista2 == NULL || lista1 == NULL)
+    if (lista2 == NULL || lista1 == NULL  || lista1->tail == NULL)
         return lista1;
     if(lista1->elem > lista2->elem)
         return restaList(lista1, lista2->tail);
@@ -71,5 +71,4 @@ TList restaList(TList lista1, TList lista2) {
         return aux;
     }
     return restaList(lista1, lista2->tail);
-
 }

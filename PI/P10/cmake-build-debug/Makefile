@@ -129,29 +129,29 @@ P10/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/build
 .PHONY : P10/fast
 
-Ej5.o: Ej5.c.o
-.PHONY : Ej5.o
+Ej8.o: Ej8.c.o
+.PHONY : Ej8.o
 
 # target to build an object file
-Ej5.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej5.c.o
-.PHONY : Ej5.c.o
+Ej8.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej8.c.o
+.PHONY : Ej8.c.o
 
-Ej5.i: Ej5.c.i
-.PHONY : Ej5.i
+Ej8.i: Ej8.c.i
+.PHONY : Ej8.i
 
 # target to preprocess a source file
-Ej5.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej5.c.i
-.PHONY : Ej5.c.i
+Ej8.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej8.c.i
+.PHONY : Ej8.c.i
 
-Ej5.s: Ej5.c.s
-.PHONY : Ej5.s
+Ej8.s: Ej8.c.s
+.PHONY : Ej8.s
 
 # target to generate assembly for a file
-Ej5.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej5.c.s
-.PHONY : Ej5.c.s
+Ej8.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P10.dir/build.make CMakeFiles/P10.dir/Ej8.c.s
+.PHONY : Ej8.c.s
 
 getnum.o: getnum.c.o
 .PHONY : getnum.o
@@ -234,9 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... P10"
-	@echo "... Ej5.o"
-	@echo "... Ej5.i"
-	@echo "... Ej5.s"
+	@echo "... Ej8.o"
+	@echo "... Ej8.i"
+	@echo "... Ej8.s"
 	@echo "... getnum.o"
 	@echo "... getnum.i"
 	@echo "... getnum.s"

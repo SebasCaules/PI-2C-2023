@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/PI_Backup/PI/P10/Ej5.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P10/Ej8.c">
 			<Option target="P10"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P10/getnum.c">

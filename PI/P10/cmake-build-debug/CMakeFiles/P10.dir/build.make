@@ -111,26 +111,26 @@ CMakeFiles/P10.dir/utillist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P10.dir/utillist.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P10/utillist.c -o CMakeFiles/P10.dir/utillist.c.s
 
-CMakeFiles/P10.dir/Ej5.c.o: CMakeFiles/P10.dir/flags.make
-CMakeFiles/P10.dir/Ej5.c.o: /mnt/d/PI_Backup/PI/P10/Ej5.c
-CMakeFiles/P10.dir/Ej5.c.o: CMakeFiles/P10.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P10/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/P10.dir/Ej5.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P10.dir/Ej5.c.o -MF CMakeFiles/P10.dir/Ej5.c.o.d -o CMakeFiles/P10.dir/Ej5.c.o -c /mnt/d/PI_Backup/PI/P10/Ej5.c
+CMakeFiles/P10.dir/Ej8.c.o: CMakeFiles/P10.dir/flags.make
+CMakeFiles/P10.dir/Ej8.c.o: /mnt/d/PI_Backup/PI/P10/Ej8.c
+CMakeFiles/P10.dir/Ej8.c.o: CMakeFiles/P10.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P10/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/P10.dir/Ej8.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P10.dir/Ej8.c.o -MF CMakeFiles/P10.dir/Ej8.c.o.d -o CMakeFiles/P10.dir/Ej8.c.o -c /mnt/d/PI_Backup/PI/P10/Ej8.c
 
-CMakeFiles/P10.dir/Ej5.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P10.dir/Ej5.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P10/Ej5.c > CMakeFiles/P10.dir/Ej5.c.i
+CMakeFiles/P10.dir/Ej8.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P10.dir/Ej8.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P10/Ej8.c > CMakeFiles/P10.dir/Ej8.c.i
 
-CMakeFiles/P10.dir/Ej5.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P10.dir/Ej5.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P10/Ej5.c -o CMakeFiles/P10.dir/Ej5.c.s
+CMakeFiles/P10.dir/Ej8.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P10.dir/Ej8.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P10/Ej8.c -o CMakeFiles/P10.dir/Ej8.c.s
 
 # Object files for target P10
 P10_OBJECTS = \
 "CMakeFiles/P10.dir/getnum.c.o" \
 "CMakeFiles/P10.dir/random.c.o" \
 "CMakeFiles/P10.dir/utillist.c.o" \
-"CMakeFiles/P10.dir/Ej5.c.o"
+"CMakeFiles/P10.dir/Ej8.c.o"
 
 # External object files for target P10
 P10_EXTERNAL_OBJECTS =
@@ -138,7 +138,7 @@ P10_EXTERNAL_OBJECTS =
 P10: CMakeFiles/P10.dir/getnum.c.o
 P10: CMakeFiles/P10.dir/random.c.o
 P10: CMakeFiles/P10.dir/utillist.c.o
-P10: CMakeFiles/P10.dir/Ej5.c.o
+P10: CMakeFiles/P10.dir/Ej8.c.o
 P10: CMakeFiles/P10.dir/build.make
 P10: CMakeFiles/P10.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/PI_Backup/PI/P10/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable P10"

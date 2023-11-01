@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P10.dir/Ej5.c.o"
-  "CMakeFiles/P10.dir/Ej5.c.o.d"
+  "CMakeFiles/P10.dir/Ej8.c.o"
+  "CMakeFiles/P10.dir/Ej8.c.o.d"
   "CMakeFiles/P10.dir/getnum.c.o"
   "CMakeFiles/P10.dir/getnum.c.o.d"
   "CMakeFiles/P10.dir/random.c.o"
