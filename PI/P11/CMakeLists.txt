@@ -7,4 +7,6 @@ set(CMAKE_C_STANDARD 99)
 add_executable(P11
         EjMenuMaths.c
         getnum.c
+        stackADT.c
+        stackADT.h
 )

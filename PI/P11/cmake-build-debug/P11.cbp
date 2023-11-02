@@ -85,6 +85,15 @@
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/getnum.h">
 			<Option target="P11"/>
 		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackADT.c">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackADT.h">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackAdt.h">
+			<Option target="P11"/>
+		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

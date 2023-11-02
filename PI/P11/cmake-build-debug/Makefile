@@ -177,6 +177,30 @@ getnum.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/getnum.c.s
 .PHONY : getnum.c.s
 
+stackADT.o: stackADT.c.o
+.PHONY : stackADT.o
+
+# target to build an object file
+stackADT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/stackADT.c.o
+.PHONY : stackADT.c.o
+
+stackADT.i: stackADT.c.i
+.PHONY : stackADT.i
+
+# target to preprocess a source file
+stackADT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/stackADT.c.i
+.PHONY : stackADT.c.i
+
+stackADT.s: stackADT.c.s
+.PHONY : stackADT.s
+
+# target to generate assembly for a file
+stackADT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/stackADT.c.s
+.PHONY : stackADT.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... getnum.o"
 	@echo "... getnum.i"
 	@echo "... getnum.s"
+	@echo "... stackADT.o"
+	@echo "... stackADT.i"
+	@echo "... stackADT.s"
 .PHONY : help
 
 

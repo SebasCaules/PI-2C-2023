@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/d/PI_Backup/PI/P11/EjMenuMaths.c" "CMakeFiles/P11.dir/EjMenuMaths.c.o" "gcc" "CMakeFiles/P11.dir/EjMenuMaths.c.o.d"
   "/mnt/d/PI_Backup/PI/P11/getnum.c" "CMakeFiles/P11.dir/getnum.c.o" "gcc" "CMakeFiles/P11.dir/getnum.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/stackADT.c" "CMakeFiles/P11.dir/stackADT.c.o" "gcc" "CMakeFiles/P11.dir/stackADT.c.o.d"
   )
 
 # Targets to which this target links.

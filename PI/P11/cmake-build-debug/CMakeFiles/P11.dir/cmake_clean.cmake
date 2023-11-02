@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/P11.dir/EjMenuMaths.c.o.d"
   "CMakeFiles/P11.dir/getnum.c.o"
   "CMakeFiles/P11.dir/getnum.c.o.d"
+  "CMakeFiles/P11.dir/stackADT.c.o"
+  "CMakeFiles/P11.dir/stackADT.c.o.d"
   "P11"
   "P11.pdb"
 )
