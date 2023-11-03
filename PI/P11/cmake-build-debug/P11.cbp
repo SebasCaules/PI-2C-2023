@@ -91,9 +91,6 @@
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackADT.h">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackAdt.h">
-			<Option target="P11"/>
-		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
