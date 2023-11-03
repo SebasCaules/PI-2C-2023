@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g CMakeFiles/P11.dir/EjMenuMaths.c.o CMakeFiles/P11.dir/getnum.c.o CMakeFiles/P11.dir/stackADT.c.o -o P11 
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g CMakeFiles/P11.dir/Getnum/getnum.c.o CMakeFiles/P11.dir/UtilList/utillist.c.o CMakeFiles/P11.dir/Ej5/Ej5_Main.c.o CMakeFiles/P11.dir/Ej5/Ej5.c.o -o P11 

@@ -8,5 +8,5 @@ add_executable(P10
         getnum.c
         random.c
         utillist.c
-        Ej8.c
+        Ej9.c
 )

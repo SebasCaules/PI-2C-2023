@@ -11,10 +11,10 @@
 				<Option working_dir="/mnt/d/PI_Backup/PI/P11/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="P11">
@@ -30,10 +30,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P11"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P11"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="P11/fast">
@@ -49,46 +49,52 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P11/fast"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 P11/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/mnt/d/PI_Backup/PI/P11/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/mnt/d/PI_Backup/PI/P11/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/PI_Backup/PI/P11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/EjMenuMaths.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej5/Ej5.c">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/getnum.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej5/Ej5.h">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/getnum.h">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej5/Ej5_Main.c">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackADT.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Getnum/getnum.c">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/stackADT.h">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Getnum/getnum.h">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/UtilList/utillist.c">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/UtilList/utillist.h">
 			<Option target="P11"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/CMakeLists.txt">

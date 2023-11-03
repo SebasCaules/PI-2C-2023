@@ -97,35 +97,51 @@ CMakeFiles/Taller.dir/27-10/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/27-10/random.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/27-10/random.c -o CMakeFiles/Taller.dir/27-10/random.c.s
 
-CMakeFiles/Taller.dir/27-10/Ej3.c.o: CMakeFiles/Taller.dir/flags.make
-CMakeFiles/Taller.dir/27-10/Ej3.c.o: /mnt/d/PI_Backup/PI/Taller/27-10/Ej3.c
-CMakeFiles/Taller.dir/27-10/Ej3.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Taller.dir/27-10/Ej3.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/27-10/Ej3.c.o -MF CMakeFiles/Taller.dir/27-10/Ej3.c.o.d -o CMakeFiles/Taller.dir/27-10/Ej3.c.o -c /mnt/d/PI_Backup/PI/Taller/27-10/Ej3.c
+CMakeFiles/Taller.dir/3-11/utillist.c.o: CMakeFiles/Taller.dir/flags.make
+CMakeFiles/Taller.dir/3-11/utillist.c.o: /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c
+CMakeFiles/Taller.dir/3-11/utillist.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Taller.dir/3-11/utillist.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/3-11/utillist.c.o -MF CMakeFiles/Taller.dir/3-11/utillist.c.o.d -o CMakeFiles/Taller.dir/3-11/utillist.c.o -c /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c
 
-CMakeFiles/Taller.dir/27-10/Ej3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/27-10/Ej3.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/27-10/Ej3.c > CMakeFiles/Taller.dir/27-10/Ej3.c.i
+CMakeFiles/Taller.dir/3-11/utillist.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/3-11/utillist.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c > CMakeFiles/Taller.dir/3-11/utillist.c.i
 
-CMakeFiles/Taller.dir/27-10/Ej3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/27-10/Ej3.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/27-10/Ej3.c -o CMakeFiles/Taller.dir/27-10/Ej3.c.s
+CMakeFiles/Taller.dir/3-11/utillist.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/3-11/utillist.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c -o CMakeFiles/Taller.dir/3-11/utillist.c.s
+
+CMakeFiles/Taller.dir/3-11/Ej4.c.o: CMakeFiles/Taller.dir/flags.make
+CMakeFiles/Taller.dir/3-11/Ej4.c.o: /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c
+CMakeFiles/Taller.dir/3-11/Ej4.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Taller.dir/3-11/Ej4.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/3-11/Ej4.c.o -MF CMakeFiles/Taller.dir/3-11/Ej4.c.o.d -o CMakeFiles/Taller.dir/3-11/Ej4.c.o -c /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c
+
+CMakeFiles/Taller.dir/3-11/Ej4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/3-11/Ej4.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c > CMakeFiles/Taller.dir/3-11/Ej4.c.i
+
+CMakeFiles/Taller.dir/3-11/Ej4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/3-11/Ej4.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c -o CMakeFiles/Taller.dir/3-11/Ej4.c.s
 
 # Object files for target Taller
 Taller_OBJECTS = \
 "CMakeFiles/Taller.dir/27-10/getnum.c.o" \
 "CMakeFiles/Taller.dir/27-10/random.c.o" \
-"CMakeFiles/Taller.dir/27-10/Ej3.c.o"
+"CMakeFiles/Taller.dir/3-11/utillist.c.o" \
+"CMakeFiles/Taller.dir/3-11/Ej4.c.o"
 
 # External object files for target Taller
 Taller_EXTERNAL_OBJECTS =
 
 Taller: CMakeFiles/Taller.dir/27-10/getnum.c.o
 Taller: CMakeFiles/Taller.dir/27-10/random.c.o
-Taller: CMakeFiles/Taller.dir/27-10/Ej3.c.o
+Taller: CMakeFiles/Taller.dir/3-11/utillist.c.o
+Taller: CMakeFiles/Taller.dir/3-11/Ej4.c.o
 Taller: CMakeFiles/Taller.dir/build.make
 Taller: CMakeFiles/Taller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Taller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Taller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Taller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

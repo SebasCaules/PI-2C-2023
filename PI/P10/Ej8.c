@@ -50,23 +50,15 @@ int main(void) {
 }
 
 TList listUnion(const TList list1, const TList list2) {
-    if(list1 == NULL)
-        return list2;
-    if(list2 == NULL)
-        return list1;
-    if (list1->elem == list2->elem) {
-        TList aux = malloc(sizeof(TNode));
-        aux->elem = list1->elem;
-        aux->tail = listUnion(list1->tail, list2->tail);
-        return aux;
-    }
-    if (list1->elem < list2->elem) {
+    if(list1 == NULL && list2 == NULL)
+        return NULL;
+    if (list2 == NULL || list1 != NULL && list1->elem < list2->elem) {
         TList aux = malloc(sizeof(TNode));
         aux->elem = list1->elem;
         aux->tail = listUnion(list1->tail, list2);
         return aux;
     }
-    if (list2->elem < list1->elem) {
+    if (list1 == NULL || list2->elem < list1->elem) {
         TList aux = malloc(sizeof(TNode));
         aux->elem = list2->elem;
         aux->tail = listUnion(list1, list2->tail);

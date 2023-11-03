@@ -8,7 +8,6 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Taller
         27-10/getnum.c
         27-10/random.c
-        27-10/Ej3.c
-
-
+        3-11/utillist.c
+        3-11/Ej4.c
 )

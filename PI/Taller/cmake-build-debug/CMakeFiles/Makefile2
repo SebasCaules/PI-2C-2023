@@ -81,12 +81,12 @@ clean: CMakeFiles/Taller.dir/clean
 CMakeFiles/Taller.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target Taller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Taller"
 .PHONY : CMakeFiles/Taller.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Taller.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Taller.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Taller.dir/rule

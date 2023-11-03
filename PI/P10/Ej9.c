@@ -1,0 +1,74 @@
+#include <stdio.h>
+#include <assert.h>
+#include <stdlib.h>
+#include "utillist.h"
+
+typedef struct nodeBrief * TListBrief;
+
+typedef struct nodeBrief {
+    int elem;
+    size_t count;
+    struct nodeBrief * tail;
+} TNodeBrief;
+
+
+TListBrief comprimeList(const TList list);
+
+// Auxiliar para que pase el test con sanitizer
+void freeListBrief(TListBrief lb) {
+    if ( lb == NULL)
+        return;
+    freeListBrief(lb->tail);
+    free(lb);
+}
+
+int main(void) {
+
+    int v[] = {1,1,2,3,3,3,3,3,10,100,100,998};
+    TList list = fromArray(v, sizeof(v)/sizeof(v[0]));
+    TListBrief bf = comprimeList(list);
+
+    TListBrief aux = bf;
+    printf("%d\n", aux->elem);
+    printf("%d\n", aux->count);
+    assert(aux->elem ==1 && aux->count == 2);
+
+    aux = aux->tail;
+
+    printf("%d \n", aux->elem);
+    printf("%d\n", aux->count);
+    assert(aux->elem ==2 && aux->count == 1);
+
+    aux = aux->tail;
+    assert(aux->elem ==3 && aux->count == 5);
+
+    aux = aux->tail;
+    assert(aux->elem ==10 && aux->count == 1);
+
+    aux = aux->tail;
+    assert(aux->elem ==100 && aux->count == 2);
+
+    aux = aux->tail;
+    assert(aux->elem ==998 && aux->count == 1);
+
+    aux = aux->tail;
+    assert(aux == NULL);
+
+    freeList(list);
+    freeListBrief(bf);
+
+    printf ("OK!\n");
+    return 0;
+}
+
+TListBrief comprimeList(const TList list){
+    if(list == NULL ||list->tail == NULL)
+        return NULL;
+    TListBrief aux = malloc(sizeof (TNodeBrief));
+    aux->elem = list->elem;
+    aux->count = 1;
+    if(list->elem == list->tail->elem)
+        aux->count += 1;
+    aux->tail = comprimeList(list->tail);
+    return aux;
+}

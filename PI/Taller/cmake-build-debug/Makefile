@@ -129,30 +129,6 @@ Taller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/build
 .PHONY : Taller/fast
 
-27-10/Ej3.o: 27-10/Ej3.c.o
-.PHONY : 27-10/Ej3.o
-
-# target to build an object file
-27-10/Ej3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/Ej3.c.o
-.PHONY : 27-10/Ej3.c.o
-
-27-10/Ej3.i: 27-10/Ej3.c.i
-.PHONY : 27-10/Ej3.i
-
-# target to preprocess a source file
-27-10/Ej3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/Ej3.c.i
-.PHONY : 27-10/Ej3.c.i
-
-27-10/Ej3.s: 27-10/Ej3.c.s
-.PHONY : 27-10/Ej3.s
-
-# target to generate assembly for a file
-27-10/Ej3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/Ej3.c.s
-.PHONY : 27-10/Ej3.c.s
-
 27-10/getnum.o: 27-10/getnum.c.o
 .PHONY : 27-10/getnum.o
 
@@ -201,6 +177,54 @@ Taller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/random.c.s
 .PHONY : 27-10/random.c.s
 
+3-11/Ej4.o: 3-11/Ej4.c.o
+.PHONY : 3-11/Ej4.o
+
+# target to build an object file
+3-11/Ej4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/Ej4.c.o
+.PHONY : 3-11/Ej4.c.o
+
+3-11/Ej4.i: 3-11/Ej4.c.i
+.PHONY : 3-11/Ej4.i
+
+# target to preprocess a source file
+3-11/Ej4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/Ej4.c.i
+.PHONY : 3-11/Ej4.c.i
+
+3-11/Ej4.s: 3-11/Ej4.c.s
+.PHONY : 3-11/Ej4.s
+
+# target to generate assembly for a file
+3-11/Ej4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/Ej4.c.s
+.PHONY : 3-11/Ej4.c.s
+
+3-11/utillist.o: 3-11/utillist.c.o
+.PHONY : 3-11/utillist.o
+
+# target to build an object file
+3-11/utillist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/utillist.c.o
+.PHONY : 3-11/utillist.c.o
+
+3-11/utillist.i: 3-11/utillist.c.i
+.PHONY : 3-11/utillist.i
+
+# target to preprocess a source file
+3-11/utillist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/utillist.c.i
+.PHONY : 3-11/utillist.c.i
+
+3-11/utillist.s: 3-11/utillist.c.s
+.PHONY : 3-11/utillist.s
+
+# target to generate assembly for a file
+3-11/utillist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/utillist.c.s
+.PHONY : 3-11/utillist.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Taller"
-	@echo "... 27-10/Ej3.o"
-	@echo "... 27-10/Ej3.i"
-	@echo "... 27-10/Ej3.s"
 	@echo "... 27-10/getnum.o"
 	@echo "... 27-10/getnum.i"
 	@echo "... 27-10/getnum.s"
 	@echo "... 27-10/random.o"
 	@echo "... 27-10/random.i"
 	@echo "... 27-10/random.s"
+	@echo "... 3-11/Ej4.o"
+	@echo "... 3-11/Ej4.i"
+	@echo "... 3-11/Ej4.s"
+	@echo "... 3-11/utillist.o"
+	@echo "... 3-11/utillist.i"
+	@echo "... 3-11/utillist.s"
 .PHONY : help
 
 

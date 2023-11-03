@@ -87,13 +87,18 @@ void deleteDupl (TList list){
     deleteDupl(list->tail);
 }
 
-TList deleteDupl2 (TList list){
-    if(list == NULL || list->tail == NULL)
+TList deleteDupl2 (TList list) {
+    // Una lista vacía o de un elemento no tiene duplicados
+    if (list == NULL || list->tail == NULL)
         return list;
-    if(list->elem == list->tail->elem){
-        list->tail = deleteDupl2(list->tail->tail);
-        return list;
+    // Como funciona el caso base, funciona para una lista de menor longitud
+    // Pedimos entonces que elimine duplicados de la sublista
+    list->tail = deleteDupl2(list->tail);
+    if ( list->elem == list->tail->elem) {
+        TList aux = list->tail;
+        free(list);
+        return aux;
     }
-
-    return deleteDupl2(list->tail);
+    // No es igual al header de la sublista
+    return list;
 }

@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P11.dir/EjMenuMaths.c.o"
-  "CMakeFiles/P11.dir/EjMenuMaths.c.o.d"
-  "CMakeFiles/P11.dir/getnum.c.o"
-  "CMakeFiles/P11.dir/getnum.c.o.d"
-  "CMakeFiles/P11.dir/stackADT.c.o"
-  "CMakeFiles/P11.dir/stackADT.c.o.d"
+  "CMakeFiles/P11.dir/Ej5/Ej5.c.o"
+  "CMakeFiles/P11.dir/Ej5/Ej5.c.o.d"
+  "CMakeFiles/P11.dir/Ej5/Ej5_Main.c.o"
+  "CMakeFiles/P11.dir/Ej5/Ej5_Main.c.o.d"
+  "CMakeFiles/P11.dir/Getnum/getnum.c.o"
+  "CMakeFiles/P11.dir/Getnum/getnum.c.o.d"
+  "CMakeFiles/P11.dir/UtilList/utillist.c.o"
+  "CMakeFiles/P11.dir/UtilList/utillist.c.o.d"
   "P11"
   "P11.pdb"
 )

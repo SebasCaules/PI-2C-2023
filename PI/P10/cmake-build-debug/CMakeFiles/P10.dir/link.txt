@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g CMakeFiles/P10.dir/getnum.c.o CMakeFiles/P10.dir/random.c.o CMakeFiles/P10.dir/utillist.c.o CMakeFiles/P10.dir/Ej8.c.o -o P10 
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g CMakeFiles/P10.dir/getnum.c.o CMakeFiles/P10.dir/random.c.o CMakeFiles/P10.dir/utillist.c.o CMakeFiles/P10.dir/Ej9.c.o -o P10 
