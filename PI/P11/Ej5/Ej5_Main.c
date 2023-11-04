@@ -12,22 +12,17 @@ int main(void) {
     complejoADT comp2 = nuevoComp( 2, -3 ); // comp2 = 2 - 3i
     complejoADT ans;
 
-    double b = parteRealComp(comp1);
-    printf("%g holaa\n", b);
-
     ans = sumaComp( comp1, comp2 );
 
-    printf("%g real %g img\n", parteRealComp(ans), parteImagComp(ans));
     assert( parteRealComp(ans) - 3 < EPS && parteImagComp(ans) + 1 < EPS );
     liberaComp( ans );
 
     ans = restaComp( comp1, comp2 );
-    printf("%g real %g img\n", parteRealComp(ans), parteImagComp(ans));
 
     assert( parteRealComp(ans) - 1 < EPS && parteImagComp(ans) - 5 < EPS );
     liberaComp( ans );
 
-    /*
+
     ans = multiplicaComp( comp1, comp2 );
     assert( parteRealComp(ans) - 8 < EPS && parteImagComp(ans) - 1 < EPS );
     liberaComp( ans );
@@ -43,5 +38,5 @@ int main(void) {
     liberaComp( comp2 );
     liberaComp( ans );
 
-    printf("OK!\n");*/
+    printf("OK!\n");
 }

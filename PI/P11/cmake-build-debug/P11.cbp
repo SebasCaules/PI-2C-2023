@@ -76,13 +76,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej5/Ej5.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej5/Ej5.h">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej10/Ej10.h">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej5/Ej5_Main.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej8/Ej8.c">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej8/Ej8.h">
+			<Option target="P11"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej8/Ej8_Main.c">
 			<Option target="P11"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/Getnum/getnum.c">

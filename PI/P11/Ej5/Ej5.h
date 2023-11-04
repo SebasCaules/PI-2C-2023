@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct complejoCDT * complejoADT;
+typedef struct complejoCDT *complejoADT;
 
 complejoADT nuevoComp(double real, double img);
 
