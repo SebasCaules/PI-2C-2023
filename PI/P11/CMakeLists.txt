@@ -6,8 +6,6 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(P11
         Getnum/getnum.c
-        UtilList/utillist.c
-        Ej10/Ej10_Main.c
-        Ej10/Ej10.c
-        Ej10/Ej10.h
+        ListADT/mainList.c
+        ListADT/ListADT.c
 )

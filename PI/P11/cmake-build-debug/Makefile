@@ -129,102 +129,6 @@ P11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/build
 .PHONY : P11/fast
 
-Ej10/Ej10.o: Ej10/Ej10.c.o
-.PHONY : Ej10/Ej10.o
-
-# target to build an object file
-Ej10/Ej10.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej10/Ej10.c.o
-.PHONY : Ej10/Ej10.c.o
-
-Ej10/Ej10.i: Ej10/Ej10.c.i
-.PHONY : Ej10/Ej10.i
-
-# target to preprocess a source file
-Ej10/Ej10.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej10/Ej10.c.i
-.PHONY : Ej10/Ej10.c.i
-
-Ej10/Ej10.s: Ej10/Ej10.c.s
-.PHONY : Ej10/Ej10.s
-
-# target to generate assembly for a file
-Ej10/Ej10.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej10/Ej10.c.s
-.PHONY : Ej10/Ej10.c.s
-
-Ej10/Ej10_Main.o: Ej10/Ej10_Main.c.o
-.PHONY : Ej10/Ej10_Main.o
-
-# target to build an object file
-Ej10/Ej10_Main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o
-.PHONY : Ej10/Ej10_Main.c.o
-
-Ej10/Ej10_Main.i: Ej10/Ej10_Main.c.i
-.PHONY : Ej10/Ej10_Main.i
-
-# target to preprocess a source file
-Ej10/Ej10_Main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej10/Ej10_Main.c.i
-.PHONY : Ej10/Ej10_Main.c.i
-
-Ej10/Ej10_Main.s: Ej10/Ej10_Main.c.s
-.PHONY : Ej10/Ej10_Main.s
-
-# target to generate assembly for a file
-Ej10/Ej10_Main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej10/Ej10_Main.c.s
-.PHONY : Ej10/Ej10_Main.c.s
-
-Ej8/Ej8.o: Ej8/Ej8.c.o
-.PHONY : Ej8/Ej8.o
-
-# target to build an object file
-Ej8/Ej8.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej8/Ej8.c.o
-.PHONY : Ej8/Ej8.c.o
-
-Ej8/Ej8.i: Ej8/Ej8.c.i
-.PHONY : Ej8/Ej8.i
-
-# target to preprocess a source file
-Ej8/Ej8.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej8/Ej8.c.i
-.PHONY : Ej8/Ej8.c.i
-
-Ej8/Ej8.s: Ej8/Ej8.c.s
-.PHONY : Ej8/Ej8.s
-
-# target to generate assembly for a file
-Ej8/Ej8.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej8/Ej8.c.s
-.PHONY : Ej8/Ej8.c.s
-
-Ej8/Ej8_Main.o: Ej8/Ej8_Main.c.o
-.PHONY : Ej8/Ej8_Main.o
-
-# target to build an object file
-Ej8/Ej8_Main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o
-.PHONY : Ej8/Ej8_Main.c.o
-
-Ej8/Ej8_Main.i: Ej8/Ej8_Main.c.i
-.PHONY : Ej8/Ej8_Main.i
-
-# target to preprocess a source file
-Ej8/Ej8_Main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej8/Ej8_Main.c.i
-.PHONY : Ej8/Ej8_Main.c.i
-
-Ej8/Ej8_Main.s: Ej8/Ej8_Main.c.s
-.PHONY : Ej8/Ej8_Main.s
-
-# target to generate assembly for a file
-Ej8/Ej8_Main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej8/Ej8_Main.c.s
-.PHONY : Ej8/Ej8_Main.c.s
-
 Getnum/getnum.o: Getnum/getnum.c.o
 .PHONY : Getnum/getnum.o
 
@@ -249,29 +153,53 @@ Getnum/getnum.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Getnum/getnum.c.s
 .PHONY : Getnum/getnum.c.s
 
-UtilList/utillist.o: UtilList/utillist.c.o
-.PHONY : UtilList/utillist.o
+ListADT/ListADT.o: ListADT/ListADT.c.o
+.PHONY : ListADT/ListADT.o
 
 # target to build an object file
-UtilList/utillist.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/UtilList/utillist.c.o
-.PHONY : UtilList/utillist.c.o
+ListADT/ListADT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/ListADT/ListADT.c.o
+.PHONY : ListADT/ListADT.c.o
 
-UtilList/utillist.i: UtilList/utillist.c.i
-.PHONY : UtilList/utillist.i
+ListADT/ListADT.i: ListADT/ListADT.c.i
+.PHONY : ListADT/ListADT.i
 
 # target to preprocess a source file
-UtilList/utillist.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/UtilList/utillist.c.i
-.PHONY : UtilList/utillist.c.i
+ListADT/ListADT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/ListADT/ListADT.c.i
+.PHONY : ListADT/ListADT.c.i
 
-UtilList/utillist.s: UtilList/utillist.c.s
-.PHONY : UtilList/utillist.s
+ListADT/ListADT.s: ListADT/ListADT.c.s
+.PHONY : ListADT/ListADT.s
 
 # target to generate assembly for a file
-UtilList/utillist.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/UtilList/utillist.c.s
-.PHONY : UtilList/utillist.c.s
+ListADT/ListADT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/ListADT/ListADT.c.s
+.PHONY : ListADT/ListADT.c.s
+
+ListADT/mainList.o: ListADT/mainList.c.o
+.PHONY : ListADT/mainList.o
+
+# target to build an object file
+ListADT/mainList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/ListADT/mainList.c.o
+.PHONY : ListADT/mainList.c.o
+
+ListADT/mainList.i: ListADT/mainList.c.i
+.PHONY : ListADT/mainList.i
+
+# target to preprocess a source file
+ListADT/mainList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/ListADT/mainList.c.i
+.PHONY : ListADT/mainList.c.i
+
+ListADT/mainList.s: ListADT/mainList.c.s
+.PHONY : ListADT/mainList.s
+
+# target to generate assembly for a file
+ListADT/mainList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/ListADT/mainList.c.s
+.PHONY : ListADT/mainList.c.s
 
 # Help Target
 help:
@@ -282,24 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... P11"
-	@echo "... Ej10/Ej10.o"
-	@echo "... Ej10/Ej10.i"
-	@echo "... Ej10/Ej10.s"
-	@echo "... Ej10/Ej10_Main.o"
-	@echo "... Ej10/Ej10_Main.i"
-	@echo "... Ej10/Ej10_Main.s"
-	@echo "... Ej8/Ej8.o"
-	@echo "... Ej8/Ej8.i"
-	@echo "... Ej8/Ej8.s"
-	@echo "... Ej8/Ej8_Main.o"
-	@echo "... Ej8/Ej8_Main.i"
-	@echo "... Ej8/Ej8_Main.s"
 	@echo "... Getnum/getnum.o"
 	@echo "... Getnum/getnum.i"
 	@echo "... Getnum/getnum.s"
-	@echo "... UtilList/utillist.o"
-	@echo "... UtilList/utillist.i"
-	@echo "... UtilList/utillist.s"
+	@echo "... ListADT/ListADT.o"
+	@echo "... ListADT/ListADT.i"
+	@echo "... ListADT/ListADT.s"
+	@echo "... ListADT/mainList.o"
+	@echo "... ListADT/mainList.i"
+	@echo "... ListADT/mainList.s"
 .PHONY : help
 
 

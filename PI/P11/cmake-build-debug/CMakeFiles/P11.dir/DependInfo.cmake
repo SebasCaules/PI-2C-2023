@@ -8,12 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c" "CMakeFiles/P11.dir/Ej10/Ej10.c.o" "gcc" "CMakeFiles/P11.dir/Ej10/Ej10.c.o.d"
-  "/mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c" "CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o" "gcc" "CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o.d"
-  "/mnt/d/PI_Backup/PI/P11/Ej8/Ej8.c" "CMakeFiles/P11.dir/Ej8/Ej8.c.o" "gcc" "CMakeFiles/P11.dir/Ej8/Ej8.c.o.d"
-  "/mnt/d/PI_Backup/PI/P11/Ej8/Ej8_Main.c" "CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o" "gcc" "CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o.d"
   "/mnt/d/PI_Backup/PI/P11/Getnum/getnum.c" "CMakeFiles/P11.dir/Getnum/getnum.c.o" "gcc" "CMakeFiles/P11.dir/Getnum/getnum.c.o.d"
-  "/mnt/d/PI_Backup/PI/P11/UtilList/utillist.c" "CMakeFiles/P11.dir/UtilList/utillist.c.o" "gcc" "CMakeFiles/P11.dir/UtilList/utillist.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/ListADT/ListADT.c" "CMakeFiles/P11.dir/ListADT/ListADT.c.o" "gcc" "CMakeFiles/P11.dir/ListADT/ListADT.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/ListADT/mainList.c" "CMakeFiles/P11.dir/ListADT/mainList.c.o" "gcc" "CMakeFiles/P11.dir/ListADT/mainList.c.o.d"
   )
 
 # Targets to which this target links.

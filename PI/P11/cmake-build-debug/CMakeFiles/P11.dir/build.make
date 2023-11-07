@@ -83,97 +83,49 @@ CMakeFiles/P11.dir/Getnum/getnum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/Getnum/getnum.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/Getnum/getnum.c -o CMakeFiles/P11.dir/Getnum/getnum.c.s
 
-CMakeFiles/P11.dir/UtilList/utillist.c.o: CMakeFiles/P11.dir/flags.make
-CMakeFiles/P11.dir/UtilList/utillist.c.o: /mnt/d/PI_Backup/PI/P11/UtilList/utillist.c
-CMakeFiles/P11.dir/UtilList/utillist.c.o: CMakeFiles/P11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/P11.dir/UtilList/utillist.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/UtilList/utillist.c.o -MF CMakeFiles/P11.dir/UtilList/utillist.c.o.d -o CMakeFiles/P11.dir/UtilList/utillist.c.o -c /mnt/d/PI_Backup/PI/P11/UtilList/utillist.c
+CMakeFiles/P11.dir/ListADT/mainList.c.o: CMakeFiles/P11.dir/flags.make
+CMakeFiles/P11.dir/ListADT/mainList.c.o: /mnt/d/PI_Backup/PI/P11/ListADT/mainList.c
+CMakeFiles/P11.dir/ListADT/mainList.c.o: CMakeFiles/P11.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/P11.dir/ListADT/mainList.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/ListADT/mainList.c.o -MF CMakeFiles/P11.dir/ListADT/mainList.c.o.d -o CMakeFiles/P11.dir/ListADT/mainList.c.o -c /mnt/d/PI_Backup/PI/P11/ListADT/mainList.c
 
-CMakeFiles/P11.dir/UtilList/utillist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/UtilList/utillist.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/UtilList/utillist.c > CMakeFiles/P11.dir/UtilList/utillist.c.i
+CMakeFiles/P11.dir/ListADT/mainList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/ListADT/mainList.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/ListADT/mainList.c > CMakeFiles/P11.dir/ListADT/mainList.c.i
 
-CMakeFiles/P11.dir/UtilList/utillist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/UtilList/utillist.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/UtilList/utillist.c -o CMakeFiles/P11.dir/UtilList/utillist.c.s
+CMakeFiles/P11.dir/ListADT/mainList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/ListADT/mainList.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/ListADT/mainList.c -o CMakeFiles/P11.dir/ListADT/mainList.c.s
 
-CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o: CMakeFiles/P11.dir/flags.make
-CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o: /mnt/d/PI_Backup/PI/P11/Ej8/Ej8_Main.c
-CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o: CMakeFiles/P11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o -MF CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o.d -o CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o -c /mnt/d/PI_Backup/PI/P11/Ej8/Ej8_Main.c
+CMakeFiles/P11.dir/ListADT/ListADT.c.o: CMakeFiles/P11.dir/flags.make
+CMakeFiles/P11.dir/ListADT/ListADT.c.o: /mnt/d/PI_Backup/PI/P11/ListADT/ListADT.c
+CMakeFiles/P11.dir/ListADT/ListADT.c.o: CMakeFiles/P11.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/P11.dir/ListADT/ListADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/ListADT/ListADT.c.o -MF CMakeFiles/P11.dir/ListADT/ListADT.c.o.d -o CMakeFiles/P11.dir/ListADT/ListADT.c.o -c /mnt/d/PI_Backup/PI/P11/ListADT/ListADT.c
 
-CMakeFiles/P11.dir/Ej8/Ej8_Main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/Ej8/Ej8_Main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/Ej8/Ej8_Main.c > CMakeFiles/P11.dir/Ej8/Ej8_Main.c.i
+CMakeFiles/P11.dir/ListADT/ListADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/ListADT/ListADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/ListADT/ListADT.c > CMakeFiles/P11.dir/ListADT/ListADT.c.i
 
-CMakeFiles/P11.dir/Ej8/Ej8_Main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/Ej8/Ej8_Main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/Ej8/Ej8_Main.c -o CMakeFiles/P11.dir/Ej8/Ej8_Main.c.s
-
-CMakeFiles/P11.dir/Ej8/Ej8.c.o: CMakeFiles/P11.dir/flags.make
-CMakeFiles/P11.dir/Ej8/Ej8.c.o: /mnt/d/PI_Backup/PI/P11/Ej8/Ej8.c
-CMakeFiles/P11.dir/Ej8/Ej8.c.o: CMakeFiles/P11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/P11.dir/Ej8/Ej8.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/Ej8/Ej8.c.o -MF CMakeFiles/P11.dir/Ej8/Ej8.c.o.d -o CMakeFiles/P11.dir/Ej8/Ej8.c.o -c /mnt/d/PI_Backup/PI/P11/Ej8/Ej8.c
-
-CMakeFiles/P11.dir/Ej8/Ej8.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/Ej8/Ej8.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/Ej8/Ej8.c > CMakeFiles/P11.dir/Ej8/Ej8.c.i
-
-CMakeFiles/P11.dir/Ej8/Ej8.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/Ej8/Ej8.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/Ej8/Ej8.c -o CMakeFiles/P11.dir/Ej8/Ej8.c.s
-
-CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o: CMakeFiles/P11.dir/flags.make
-CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o: /mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c
-CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o: CMakeFiles/P11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o -MF CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o.d -o CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o -c /mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c
-
-CMakeFiles/P11.dir/Ej10/Ej10_Main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/Ej10/Ej10_Main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c > CMakeFiles/P11.dir/Ej10/Ej10_Main.c.i
-
-CMakeFiles/P11.dir/Ej10/Ej10_Main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/Ej10/Ej10_Main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c -o CMakeFiles/P11.dir/Ej10/Ej10_Main.c.s
-
-CMakeFiles/P11.dir/Ej10/Ej10.c.o: CMakeFiles/P11.dir/flags.make
-CMakeFiles/P11.dir/Ej10/Ej10.c.o: /mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c
-CMakeFiles/P11.dir/Ej10/Ej10.c.o: CMakeFiles/P11.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/P11.dir/Ej10/Ej10.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/P11.dir/Ej10/Ej10.c.o -MF CMakeFiles/P11.dir/Ej10/Ej10.c.o.d -o CMakeFiles/P11.dir/Ej10/Ej10.c.o -c /mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c
-
-CMakeFiles/P11.dir/Ej10/Ej10.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/P11.dir/Ej10/Ej10.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c > CMakeFiles/P11.dir/Ej10/Ej10.c.i
-
-CMakeFiles/P11.dir/Ej10/Ej10.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/Ej10/Ej10.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c -o CMakeFiles/P11.dir/Ej10/Ej10.c.s
+CMakeFiles/P11.dir/ListADT/ListADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/P11.dir/ListADT/ListADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/P11/ListADT/ListADT.c -o CMakeFiles/P11.dir/ListADT/ListADT.c.s
 
 # Object files for target P11
 P11_OBJECTS = \
 "CMakeFiles/P11.dir/Getnum/getnum.c.o" \
-"CMakeFiles/P11.dir/UtilList/utillist.c.o" \
-"CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o" \
-"CMakeFiles/P11.dir/Ej8/Ej8.c.o" \
-"CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o" \
-"CMakeFiles/P11.dir/Ej10/Ej10.c.o"
+"CMakeFiles/P11.dir/ListADT/mainList.c.o" \
+"CMakeFiles/P11.dir/ListADT/ListADT.c.o"
 
 # External object files for target P11
 P11_EXTERNAL_OBJECTS =
 
 P11: CMakeFiles/P11.dir/Getnum/getnum.c.o
-P11: CMakeFiles/P11.dir/UtilList/utillist.c.o
-P11: CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o
-P11: CMakeFiles/P11.dir/Ej8/Ej8.c.o
-P11: CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o
-P11: CMakeFiles/P11.dir/Ej10/Ej10.c.o
+P11: CMakeFiles/P11.dir/ListADT/mainList.c.o
+P11: CMakeFiles/P11.dir/ListADT/ListADT.c.o
 P11: CMakeFiles/P11.dir/build.make
 P11: CMakeFiles/P11.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable P11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/d/PI_Backup/PI/P11/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable P11"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/P11.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
