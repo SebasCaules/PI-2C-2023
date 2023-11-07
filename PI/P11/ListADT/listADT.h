@@ -8,7 +8,7 @@
 #include <stdlib.h>
 
 // El tipo de datos a insertar, definido por el usuario
-typedef int elemType;
+typedef char * elemType;
 
 typedef struct listCDT * listADT;
 
@@ -43,5 +43,16 @@ int belongsList(listADT list, elemType elem);
 int addList(listADT list, elemType elem);
 
 int deleteList(listADT list, elemType elem);
+
+//Funciones de Iteracion sobre la lista
+
+//Incializa el iterador
+void toBegin(listADT list);
+
+size_t hasNext(listADT list);
+
+elemType next(listADT list);
+
+
 
 #endif

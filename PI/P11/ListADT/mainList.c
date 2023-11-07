@@ -1,69 +1,36 @@
+#include "listADT.h"
 #include <assert.h>
 #include <stdio.h>
-#include "listADT.h"
+#include <string.h>
 
-int cmpInts(int a, int b) {
-    return a-b;
-}
+int main(void) {
+    // Ejemplo lista de palabras
+    // sin repetidos, orden alfabetico
+    listADT wordList = newList((int (*)(char *, char *))strcmp);
 
-int
-main(void) {
-   listADT adt = newList(cmpInts);
-    assert(sizeList(adt)==0);
-    assert(belongsList(adt, 10)==0);
-    assert(isEmptyList(adt));
+    assert(isEmptyList(wordList) == 1);
+    assert(sizeList(wordList) == 0);
 
+    assert(addList(wordList, "world") == 1);
+    assert(addList(wordList, "hello") == 1);
+    assert(addList(wordList, "world") == 0);
+    assert(addList(wordList, "hola") == 1);
 
+    assert(isEmptyList(wordList) == 0);
+    assert(sizeList(wordList) == 3);
 
-    assert(addList(adt, 10));
-    assert(sizeList(adt)==1);
-    assert(belongsList(adt, 10)==1);
-    assert(belongsList(adt, 20)==0);
-    assert(!isEmptyList(adt));
+    assert(deleteList(wordList, "Hello") == 0);
+    assert(deleteList(wordList, "hello") == 1);
 
-    myList = add(myList, 5);
-    assert(size(myList)==2);
-    assert(belongs(myList, 10)==1);
-    assert(belongs(myList, 5)==1);
+    assert(sizeList(wordList) == 2);
 
-    myList = add(myList, 5);
-    myList = add(myList, 10);
-
-
-    assert(size(myList)==2);
-    assert(belongs(myList, 10)==1);
-    assert(belongs(myList, 5)==1);
-
-    myList = add(myList, 55);  // al final
-    myList = add(myList, 20);  //  en el medio
-    assert(size(myList)==4);
-
-    assert(belongs(myList, 10)==1);
-    assert(belongs(myList, 5)==1);
-
-    myList = delete(myList, 10);
-    assert(size(myList)==3);
-    assert(belongs(myList, 10)==0);
-    assert(belongs(myList, 5)==1);
-
-    // Quiero imprimir todos los elementos, o sumarlos
-    List aux = myList;
-    while(! isEmpty(aux)) {
-        printf("%d ", head(aux));
-        aux = tail(aux);
+    toBegin(wordList);
+    while (hasNext(wordList)){
+        printf("%s\n", next(wordList));
     }
-    putchar('\n');
 
+    freeListADT(wordList);
 
-   int cant = size(myList);
-   for(int i=0; i < cant; i++) {
-       printf("%d ", get(myList, i));
-   }
-   putchar('\n');
-
-
-   freeList(myList);
-    freeListADT(adt);
-   puts("OK!");
-   return 0;
+    puts("OK!");
+    return 0;
 }

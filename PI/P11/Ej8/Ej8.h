@@ -1,13 +1,12 @@
 #ifndef __SETADTH_
 
 #define __SETADTH_
-
-#include "listADT.h"		// incluye elemType (usamos la versión que recibe la función de comparación)
+#include "../ListADT/listADT.h" // incluye elemType (usamos la versión que recibe la función de comparación)
 
 typedef struct setCDT * setADT;
 
 /* Retorna un nuevo conjunto vacío */
-setADT newSet(int (*compare)(elemType, elemType));
+setADT newSet(compare cmp);
 
 void freeSet(setADT set);
 

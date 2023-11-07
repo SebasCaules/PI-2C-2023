@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P11.dir/Getnum/getnum.c.o"
-  "CMakeFiles/P11.dir/Getnum/getnum.c.o.d"
-  "CMakeFiles/P11.dir/ListADT/ListADT.c.o"
-  "CMakeFiles/P11.dir/ListADT/ListADT.c.o.d"
-  "CMakeFiles/P11.dir/ListADT/mainList.c.o"
-  "CMakeFiles/P11.dir/ListADT/mainList.c.o.d"
+  "CMakeFiles/P11.dir/Ej8/Ej8.c.o"
+  "CMakeFiles/P11.dir/Ej8/Ej8.c.o.d"
+  "CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o"
+  "CMakeFiles/P11.dir/Ej8/Ej8_Main.c.o.d"
   "P11"
   "P11.pdb"
 )
