@@ -76,6 +76,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/Main_diccio.c">
+			<Option target="Taller"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/diccioADT.c">
+			<Option target="Taller"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/diccioADT.h">
+			<Option target="Taller"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/Taller/10-11/queueADT/Main_queue.c">
+			<Option target="Taller"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/Taller/10-11/queueADT/queueADT.c">
+			<Option target="Taller"/>
+		</Unit>
+		<Unit filename="/mnt/d/PI_Backup/PI/Taller/10-11/queueADT/queueADT.h">
+			<Option target="Taller"/>
+		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/Taller/27-10/getnum.c">
 			<Option target="Taller"/>
 		</Unit>
@@ -86,15 +104,6 @@
 			<Option target="Taller"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/Taller/27-10/random.h">
-			<Option target="Taller"/>
-		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c">
-			<Option target="Taller"/>
-		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/Taller/3-11/utillist.c">
-			<Option target="Taller"/>
-		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/Taller/3-11/utillist.h">
 			<Option target="Taller"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/Taller/CMakeLists.txt">

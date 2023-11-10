@@ -8,6 +8,10 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Taller
         27-10/getnum.c
         27-10/random.c
-        3-11/utillist.c
-        3-11/Ej4.c
+        10-11/queueADT/Main_queue.c
+        10-11/queueADT/queueADT.h
+        10-11/queueADT/queueADT.c
+        10-11/diccioADT/diccioADT.c
+        10-11/diccioADT/Main_diccio.c
+        10-11/diccioADT/diccioADT.h
 )

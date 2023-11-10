@@ -97,51 +97,83 @@ CMakeFiles/Taller.dir/27-10/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/27-10/random.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/27-10/random.c -o CMakeFiles/Taller.dir/27-10/random.c.s
 
-CMakeFiles/Taller.dir/3-11/utillist.c.o: CMakeFiles/Taller.dir/flags.make
-CMakeFiles/Taller.dir/3-11/utillist.c.o: /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c
-CMakeFiles/Taller.dir/3-11/utillist.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Taller.dir/3-11/utillist.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/3-11/utillist.c.o -MF CMakeFiles/Taller.dir/3-11/utillist.c.o.d -o CMakeFiles/Taller.dir/3-11/utillist.c.o -c /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c
+CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o: CMakeFiles/Taller.dir/flags.make
+CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o: /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/Main_queue.c
+CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o -MF CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o.d -o CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o -c /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/Main_queue.c
 
-CMakeFiles/Taller.dir/3-11/utillist.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/3-11/utillist.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c > CMakeFiles/Taller.dir/3-11/utillist.c.i
+CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/Main_queue.c > CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.i
 
-CMakeFiles/Taller.dir/3-11/utillist.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/3-11/utillist.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/3-11/utillist.c -o CMakeFiles/Taller.dir/3-11/utillist.c.s
+CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/Main_queue.c -o CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.s
 
-CMakeFiles/Taller.dir/3-11/Ej4.c.o: CMakeFiles/Taller.dir/flags.make
-CMakeFiles/Taller.dir/3-11/Ej4.c.o: /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c
-CMakeFiles/Taller.dir/3-11/Ej4.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Taller.dir/3-11/Ej4.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/3-11/Ej4.c.o -MF CMakeFiles/Taller.dir/3-11/Ej4.c.o.d -o CMakeFiles/Taller.dir/3-11/Ej4.c.o -c /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c
+CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o: CMakeFiles/Taller.dir/flags.make
+CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o: /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/queueADT.c
+CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o -MF CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o.d -o CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o -c /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/queueADT.c
 
-CMakeFiles/Taller.dir/3-11/Ej4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/3-11/Ej4.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c > CMakeFiles/Taller.dir/3-11/Ej4.c.i
+CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/queueADT.c > CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.i
 
-CMakeFiles/Taller.dir/3-11/Ej4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/3-11/Ej4.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/3-11/Ej4.c -o CMakeFiles/Taller.dir/3-11/Ej4.c.s
+CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/10-11/queueADT/queueADT.c -o CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.s
+
+CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o: CMakeFiles/Taller.dir/flags.make
+CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o: /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/diccioADT.c
+CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o -MF CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o.d -o CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o -c /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/diccioADT.c
+
+CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/diccioADT.c > CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.i
+
+CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/diccioADT.c -o CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.s
+
+CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o: CMakeFiles/Taller.dir/flags.make
+CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o: /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/Main_diccio.c
+CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o: CMakeFiles/Taller.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o -MF CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o.d -o CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o -c /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/Main_diccio.c
+
+CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/Main_diccio.c > CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.i
+
+CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/d/PI_Backup/PI/Taller/10-11/diccioADT/Main_diccio.c -o CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.s
 
 # Object files for target Taller
 Taller_OBJECTS = \
 "CMakeFiles/Taller.dir/27-10/getnum.c.o" \
 "CMakeFiles/Taller.dir/27-10/random.c.o" \
-"CMakeFiles/Taller.dir/3-11/utillist.c.o" \
-"CMakeFiles/Taller.dir/3-11/Ej4.c.o"
+"CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o" \
+"CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o" \
+"CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o" \
+"CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o"
 
 # External object files for target Taller
 Taller_EXTERNAL_OBJECTS =
 
 Taller: CMakeFiles/Taller.dir/27-10/getnum.c.o
 Taller: CMakeFiles/Taller.dir/27-10/random.c.o
-Taller: CMakeFiles/Taller.dir/3-11/utillist.c.o
-Taller: CMakeFiles/Taller.dir/3-11/Ej4.c.o
+Taller: CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o
+Taller: CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o
+Taller: CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o
+Taller: CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o
 Taller: CMakeFiles/Taller.dir/build.make
 Taller: CMakeFiles/Taller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Taller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/d/PI_Backup/PI/Taller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Taller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Taller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

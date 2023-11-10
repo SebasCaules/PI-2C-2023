@@ -62,8 +62,17 @@ int addElement(setADT set, elemType element){
 }
 
 static TList deleteElementRec(TList list, elemType elem, compare cmp, int *flag){
-    if(list == NULL)
+    if(list == NULL || list->tail == NULL)
         return list;
+    int c = cmp(elem, list->head);
+    if(c == 0){
+        TList aux = list->tail;
+        free(list);
+        list = aux;
+        *flag = 1;
+        return aux;
+    }
+    return deleteElementRec(list->tail, elem, cmp, flag);
 }
 
 int deleteElement(setADT set, elemType element){

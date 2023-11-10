@@ -129,6 +129,102 @@ Taller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/build
 .PHONY : Taller/fast
 
+10-11/diccioADT/Main_diccio.o: 10-11/diccioADT/Main_diccio.c.o
+.PHONY : 10-11/diccioADT/Main_diccio.o
+
+# target to build an object file
+10-11/diccioADT/Main_diccio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.o
+.PHONY : 10-11/diccioADT/Main_diccio.c.o
+
+10-11/diccioADT/Main_diccio.i: 10-11/diccioADT/Main_diccio.c.i
+.PHONY : 10-11/diccioADT/Main_diccio.i
+
+# target to preprocess a source file
+10-11/diccioADT/Main_diccio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.i
+.PHONY : 10-11/diccioADT/Main_diccio.c.i
+
+10-11/diccioADT/Main_diccio.s: 10-11/diccioADT/Main_diccio.c.s
+.PHONY : 10-11/diccioADT/Main_diccio.s
+
+# target to generate assembly for a file
+10-11/diccioADT/Main_diccio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/diccioADT/Main_diccio.c.s
+.PHONY : 10-11/diccioADT/Main_diccio.c.s
+
+10-11/diccioADT/diccioADT.o: 10-11/diccioADT/diccioADT.c.o
+.PHONY : 10-11/diccioADT/diccioADT.o
+
+# target to build an object file
+10-11/diccioADT/diccioADT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.o
+.PHONY : 10-11/diccioADT/diccioADT.c.o
+
+10-11/diccioADT/diccioADT.i: 10-11/diccioADT/diccioADT.c.i
+.PHONY : 10-11/diccioADT/diccioADT.i
+
+# target to preprocess a source file
+10-11/diccioADT/diccioADT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.i
+.PHONY : 10-11/diccioADT/diccioADT.c.i
+
+10-11/diccioADT/diccioADT.s: 10-11/diccioADT/diccioADT.c.s
+.PHONY : 10-11/diccioADT/diccioADT.s
+
+# target to generate assembly for a file
+10-11/diccioADT/diccioADT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/diccioADT/diccioADT.c.s
+.PHONY : 10-11/diccioADT/diccioADT.c.s
+
+10-11/queueADT/Main_queue.o: 10-11/queueADT/Main_queue.c.o
+.PHONY : 10-11/queueADT/Main_queue.o
+
+# target to build an object file
+10-11/queueADT/Main_queue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.o
+.PHONY : 10-11/queueADT/Main_queue.c.o
+
+10-11/queueADT/Main_queue.i: 10-11/queueADT/Main_queue.c.i
+.PHONY : 10-11/queueADT/Main_queue.i
+
+# target to preprocess a source file
+10-11/queueADT/Main_queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.i
+.PHONY : 10-11/queueADT/Main_queue.c.i
+
+10-11/queueADT/Main_queue.s: 10-11/queueADT/Main_queue.c.s
+.PHONY : 10-11/queueADT/Main_queue.s
+
+# target to generate assembly for a file
+10-11/queueADT/Main_queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/queueADT/Main_queue.c.s
+.PHONY : 10-11/queueADT/Main_queue.c.s
+
+10-11/queueADT/queueADT.o: 10-11/queueADT/queueADT.c.o
+.PHONY : 10-11/queueADT/queueADT.o
+
+# target to build an object file
+10-11/queueADT/queueADT.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.o
+.PHONY : 10-11/queueADT/queueADT.c.o
+
+10-11/queueADT/queueADT.i: 10-11/queueADT/queueADT.c.i
+.PHONY : 10-11/queueADT/queueADT.i
+
+# target to preprocess a source file
+10-11/queueADT/queueADT.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.i
+.PHONY : 10-11/queueADT/queueADT.c.i
+
+10-11/queueADT/queueADT.s: 10-11/queueADT/queueADT.c.s
+.PHONY : 10-11/queueADT/queueADT.s
+
+# target to generate assembly for a file
+10-11/queueADT/queueADT.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/10-11/queueADT/queueADT.c.s
+.PHONY : 10-11/queueADT/queueADT.c.s
+
 27-10/getnum.o: 27-10/getnum.c.o
 .PHONY : 27-10/getnum.o
 
@@ -177,54 +273,6 @@ Taller/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/27-10/random.c.s
 .PHONY : 27-10/random.c.s
 
-3-11/Ej4.o: 3-11/Ej4.c.o
-.PHONY : 3-11/Ej4.o
-
-# target to build an object file
-3-11/Ej4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/Ej4.c.o
-.PHONY : 3-11/Ej4.c.o
-
-3-11/Ej4.i: 3-11/Ej4.c.i
-.PHONY : 3-11/Ej4.i
-
-# target to preprocess a source file
-3-11/Ej4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/Ej4.c.i
-.PHONY : 3-11/Ej4.c.i
-
-3-11/Ej4.s: 3-11/Ej4.c.s
-.PHONY : 3-11/Ej4.s
-
-# target to generate assembly for a file
-3-11/Ej4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/Ej4.c.s
-.PHONY : 3-11/Ej4.c.s
-
-3-11/utillist.o: 3-11/utillist.c.o
-.PHONY : 3-11/utillist.o
-
-# target to build an object file
-3-11/utillist.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/utillist.c.o
-.PHONY : 3-11/utillist.c.o
-
-3-11/utillist.i: 3-11/utillist.c.i
-.PHONY : 3-11/utillist.i
-
-# target to preprocess a source file
-3-11/utillist.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/utillist.c.i
-.PHONY : 3-11/utillist.c.i
-
-3-11/utillist.s: 3-11/utillist.c.s
-.PHONY : 3-11/utillist.s
-
-# target to generate assembly for a file
-3-11/utillist.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Taller.dir/build.make CMakeFiles/Taller.dir/3-11/utillist.c.s
-.PHONY : 3-11/utillist.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,18 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Taller"
+	@echo "... 10-11/diccioADT/Main_diccio.o"
+	@echo "... 10-11/diccioADT/Main_diccio.i"
+	@echo "... 10-11/diccioADT/Main_diccio.s"
+	@echo "... 10-11/diccioADT/diccioADT.o"
+	@echo "... 10-11/diccioADT/diccioADT.i"
+	@echo "... 10-11/diccioADT/diccioADT.s"
+	@echo "... 10-11/queueADT/Main_queue.o"
+	@echo "... 10-11/queueADT/Main_queue.i"
+	@echo "... 10-11/queueADT/Main_queue.s"
+	@echo "... 10-11/queueADT/queueADT.o"
+	@echo "... 10-11/queueADT/queueADT.i"
+	@echo "... 10-11/queueADT/queueADT.s"
 	@echo "... 27-10/getnum.o"
 	@echo "... 27-10/getnum.i"
 	@echo "... 27-10/getnum.s"
 	@echo "... 27-10/random.o"
 	@echo "... 27-10/random.i"
 	@echo "... 27-10/random.s"
-	@echo "... 3-11/Ej4.o"
-	@echo "... 3-11/Ej4.i"
-	@echo "... 3-11/Ej4.s"
-	@echo "... 3-11/utillist.o"
-	@echo "... 3-11/utillist.i"
-	@echo "... 3-11/utillist.s"
 .PHONY : help
 
 
