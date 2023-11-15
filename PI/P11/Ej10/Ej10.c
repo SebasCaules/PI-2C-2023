@@ -22,27 +22,47 @@ void freeBag(bagADT bag) {
 }
 
 bagADT newBag(compare cmp) {
-    bagADT aux = malloc(sizeof(struct bagCDT));
-    aux->first = NULL;
-    aux->dim = 0;
+    bagADT aux = calloc(1,sizeof(struct bagCDT));
     aux->cmp = cmp;
     return aux;
 }
 
-static unsigned int inBagRec(bagADT bag, size_t dim, elemType elem) {
-    if (dim == 0)
-        return 0;
-    if(bag->cmp(bag->first->head, elem))
-        return 1 + inBagRec(bag++, dim-1, elem);
+void printBag(bagADT bag){
+    printf("%s", bag->first->head);
 }
 
-static unsigned int inBag(bagADT bag, elemType elem) {
-    if (!bag->dim)
+static unsigned int countRec(nodeP first,compare cmp, elemType elem){
+    int c;
+    if(first == NULL || (c=cmp(first->head, elem)) > 0)
         return 0;
+    if(c == 0)
+        return first->count;
+    return countRec(first->tail, cmp, elem);
+}
+
+unsigned int count(const bagADT bag, elemType elem){
+    return countRec(bag->first, bag->cmp, elem);
+}
+
+static nodeP addRec(nodeP first, compare cmp, elemType elem, int * countElem){
+    int c;
+    if(first == NULL || (c=cmp(first->head, elem)) > 0){
+        nodeP aux = malloc(sizeof(struct node));
+        aux->tail = first;
+        aux->head = elem;
+        aux->count = 1;
+        *countElem = 1;
+        return aux;
+    }
+    if(c<0)
 
 }
 
 unsigned int add(bagADT bag, elemType elem) {
+    if(!bag->dim)
+        return 0;
+    if(!count(bag, elem))
+        bag->first->head =
 
 }
 
