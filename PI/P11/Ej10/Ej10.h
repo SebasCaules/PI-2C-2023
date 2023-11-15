@@ -7,14 +7,14 @@
 
 typedef struct bagCDT *bagADT;
 
-
 typedef char *elemType;    // Tipo de elemento a insertar
 
+typedef int (* compare) (elemType, elemType);
 
 /**
 ** Retorna 0 si los elementos son iguales
 */
-static int compare(elemType e1, elemType e2){
+static int cmp(elemType e1, elemType e2) {
     return strcmp(e1, e2);
 }
 

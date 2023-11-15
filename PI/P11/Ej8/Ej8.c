@@ -61,20 +61,6 @@ int addElement(setADT set, elemType element){
     return 1;
 }
 
-static TList deleteElementRec(TList list, elemType elem, compare cmp, int *flag){
-    if(list == NULL || list->tail == NULL)
-        return list;
-    int c = cmp(elem, list->head);
-    if(c == 0){
-        TList aux = list->tail;
-        free(list);
-        list = aux;
-        *flag = 1;
-        return aux;
-    }
-    return deleteElementRec(list->tail, elem, cmp, flag);
-}
-
 int deleteElement(setADT set, elemType element){
     TList aux = set->first;
     while (!(aux == NULL || aux->tail == 0)){
@@ -91,11 +77,66 @@ int deleteElement(setADT set, elemType element){
 }
 
 int sizeSet(const setADT set){
-
+    return set->dim;
 }
 
-setADT unionSet(setADT set1, setADT set2){
+setADT
+unionSet(setADT set1, setADT set2) {
+    // Asumimos que la funcion de comparacion es la misma en ambos conjuntos
+    setADT set;
+    listADT l1, l2;
 
+    set = newSet(set1->cmp);
+    if (set == NULL)
+        return NULL;
+
+    l1 = set1->;
+    toBegin(l1);
+
+    /* Si set1 y set2 son el mismo conjunto, no podemos iterar como
+    ** si fueran dos conjuntos distintos (se mezclarían los iteradores)
+    */
+    if (set1 == set2) 	{
+        while (hasNext(l1))
+            addElement(set, next(l1));
+        return set;
+    }
+
+    /* Podríamos agregar todos los elementos de l1 y luego todos los de l2
+    ** pero no sería muy eficiente
+    */
+    l2 = set2->list;
+    toBegin(l2);
+
+    if (hasNext(l1) || hasNext(l2)) {
+        elemType e1, e2;
+
+        int has1, has2;
+
+        if ((has1 = hasNext(l1)))
+            e1 = next(l1);
+        if ((has2 = hasNext(l2)))
+            e2 = next(l2);
+
+        while (has1 || has2) 		{
+            if (!has2 || (has1 && set1->cmp(e1, e2) < 0)) {
+                addElement(set, e1);
+                if ((has1 = hasNext(l1)))
+                    e1 = next(l1);
+            } else if (!has1 || (has2 && set1->cm[(e1, e2) > 0)) {
+                addElement(set, e2);
+                if ((has2 = hasNext(l2)))
+                    e2 = next(l2);
+            } else { // son iguales
+                addElement(set, e1);
+                if ((has1 = hasNext(l1)))
+                    e1 = next(l1);
+                if ((has2 = hasNext(l2)))
+                    e2 = next(l2);
+            }
+        }
+    }
+    return set;
 }
 
 setADT intersectionSet(setADT set1, setADT set2){

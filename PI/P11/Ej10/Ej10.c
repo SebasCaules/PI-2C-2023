@@ -2,41 +2,58 @@
 #include <stdlib.h>
 #include <strings.h>
 
-typedef struct bagCDT{
-    elemType e;
-    size_t dim;
-}bagCDT;
+struct node {
+    elemType head;
+    unsigned int count;
+    struct node * tail;
+};
+
+typedef struct node * nodeP;
 
 
-void freeBag(bagADT bag){
+struct bagCDT {
+    nodeP first;
+    unsigned int dim;
+    compare cmp;
+};
+
+void freeBag(bagADT bag) {
     free(bag);
 }
 
-bagADT newBag(){
-    bagADT aux;
+bagADT newBag(compare cmp) {
+    bagADT aux = malloc(sizeof(struct bagCDT));
+    aux->first = NULL;
     aux->dim = 0;
+    aux->cmp = cmp;
     return aux;
 }
 
-unsigned int add(bagADT bag, elemType elem){
-    unsigned int cont = 0;
-    while (bag->dim){
-        if(compare(bag->e, elem))
-            cont++;
-        bag++;
-    }
-    bag->e = elem;
-    return cont;
+static unsigned int inBagRec(bagADT bag, size_t dim, elemType elem) {
+    if (dim == 0)
+        return 0;
+    if(bag->cmp(bag->first->head, elem))
+        return 1 + inBagRec(bag++, dim-1, elem);
 }
 
-unsigned int count(const bagADT bag, elemType elem){
-
-}
-
-unsigned int size(const bagADT bag){
+static unsigned int inBag(bagADT bag, elemType elem) {
+    if (!bag->dim)
+        return 0;
 
 }
 
-elemType mostPopular(bagADT bag){
+unsigned int add(bagADT bag, elemType elem) {
+
+}
+
+unsigned int count(const bagADT bag, elemType elem) {
+
+}
+
+unsigned int size(const bagADT bag) {
+
+}
+
+elemType mostPopular(bagADT bag) {
 
 }
