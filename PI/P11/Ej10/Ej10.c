@@ -71,8 +71,7 @@ static nodeP addRec(nodeP first, elemType elem, int *countElem, compare cmp) {
     return first;
 }
 
-unsigned int
-add(bagADT bag, elemType element) {
+unsigned int add(bagADT bag, elemType element) {
     int countElem;
     bag->first = addRec(bag->first, element, &countElem, bag->cmp);
     if (countElem == 1)    // es el primero

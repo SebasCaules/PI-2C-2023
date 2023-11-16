@@ -76,22 +76,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej13/Ej13.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/1C-2P-2023/Ej3/Ej3.c">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej13/Ej13.h">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/1C-2P-2023/Ej3/Ej3.h">
 			<Option target="P11"/>
 		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej13/Ej13_Main.c">
-			<Option target="P11"/>
-		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej14/Ej14.c">
-			<Option target="P11"/>
-		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej14/Ej14.h">
-			<Option target="P11"/>
-		</Unit>
-		<Unit filename="/mnt/d/PI_Backup/PI/P11/Ej14/Ej14_Main.c">
+		<Unit filename="/mnt/d/PI_Backup/PI/P11/1C-2P-2023/Ej3/Ej3_Main.c">
 			<Option target="P11"/>
 		</Unit>
 		<Unit filename="/mnt/d/PI_Backup/PI/P11/CMakeLists.txt">

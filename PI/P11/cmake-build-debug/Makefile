@@ -129,101 +129,53 @@ P11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/build
 .PHONY : P11/fast
 
-Ej13/Ej13.o: Ej13/Ej13.c.o
-.PHONY : Ej13/Ej13.o
+1C-2P-2023/Ej3/Ej3.o: 1C-2P-2023/Ej3/Ej3.c.o
+.PHONY : 1C-2P-2023/Ej3/Ej3.o
 
 # target to build an object file
-Ej13/Ej13.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej13/Ej13.c.o
-.PHONY : Ej13/Ej13.c.o
+1C-2P-2023/Ej3/Ej3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3.c.o
+.PHONY : 1C-2P-2023/Ej3/Ej3.c.o
 
-Ej13/Ej13.i: Ej13/Ej13.c.i
-.PHONY : Ej13/Ej13.i
+1C-2P-2023/Ej3/Ej3.i: 1C-2P-2023/Ej3/Ej3.c.i
+.PHONY : 1C-2P-2023/Ej3/Ej3.i
 
 # target to preprocess a source file
-Ej13/Ej13.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej13/Ej13.c.i
-.PHONY : Ej13/Ej13.c.i
+1C-2P-2023/Ej3/Ej3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3.c.i
+.PHONY : 1C-2P-2023/Ej3/Ej3.c.i
 
-Ej13/Ej13.s: Ej13/Ej13.c.s
-.PHONY : Ej13/Ej13.s
+1C-2P-2023/Ej3/Ej3.s: 1C-2P-2023/Ej3/Ej3.c.s
+.PHONY : 1C-2P-2023/Ej3/Ej3.s
 
 # target to generate assembly for a file
-Ej13/Ej13.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej13/Ej13.c.s
-.PHONY : Ej13/Ej13.c.s
+1C-2P-2023/Ej3/Ej3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3.c.s
+.PHONY : 1C-2P-2023/Ej3/Ej3.c.s
 
-Ej13/Ej13_Main.o: Ej13/Ej13_Main.c.o
-.PHONY : Ej13/Ej13_Main.o
+1C-2P-2023/Ej3/Ej3_Main.o: 1C-2P-2023/Ej3/Ej3_Main.c.o
+.PHONY : 1C-2P-2023/Ej3/Ej3_Main.o
 
 # target to build an object file
-Ej13/Ej13_Main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej13/Ej13_Main.c.o
-.PHONY : Ej13/Ej13_Main.c.o
+1C-2P-2023/Ej3/Ej3_Main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3_Main.c.o
+.PHONY : 1C-2P-2023/Ej3/Ej3_Main.c.o
 
-Ej13/Ej13_Main.i: Ej13/Ej13_Main.c.i
-.PHONY : Ej13/Ej13_Main.i
-
-# target to preprocess a source file
-Ej13/Ej13_Main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej13/Ej13_Main.c.i
-.PHONY : Ej13/Ej13_Main.c.i
-
-Ej13/Ej13_Main.s: Ej13/Ej13_Main.c.s
-.PHONY : Ej13/Ej13_Main.s
-
-# target to generate assembly for a file
-Ej13/Ej13_Main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej13/Ej13_Main.c.s
-.PHONY : Ej13/Ej13_Main.c.s
-
-Ej14/Ej14.o: Ej14/Ej14.c.o
-.PHONY : Ej14/Ej14.o
-
-# target to build an object file
-Ej14/Ej14.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej14/Ej14.c.o
-.PHONY : Ej14/Ej14.c.o
-
-Ej14/Ej14.i: Ej14/Ej14.c.i
-.PHONY : Ej14/Ej14.i
+1C-2P-2023/Ej3/Ej3_Main.i: 1C-2P-2023/Ej3/Ej3_Main.c.i
+.PHONY : 1C-2P-2023/Ej3/Ej3_Main.i
 
 # target to preprocess a source file
-Ej14/Ej14.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej14/Ej14.c.i
-.PHONY : Ej14/Ej14.c.i
+1C-2P-2023/Ej3/Ej3_Main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3_Main.c.i
+.PHONY : 1C-2P-2023/Ej3/Ej3_Main.c.i
 
-Ej14/Ej14.s: Ej14/Ej14.c.s
-.PHONY : Ej14/Ej14.s
-
-# target to generate assembly for a file
-Ej14/Ej14.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej14/Ej14.c.s
-.PHONY : Ej14/Ej14.c.s
-
-Ej14/Ej14_Main.o: Ej14/Ej14_Main.c.o
-.PHONY : Ej14/Ej14_Main.o
-
-# target to build an object file
-Ej14/Ej14_Main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej14/Ej14_Main.c.o
-.PHONY : Ej14/Ej14_Main.c.o
-
-Ej14/Ej14_Main.i: Ej14/Ej14_Main.c.i
-.PHONY : Ej14/Ej14_Main.i
-
-# target to preprocess a source file
-Ej14/Ej14_Main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej14/Ej14_Main.c.i
-.PHONY : Ej14/Ej14_Main.c.i
-
-Ej14/Ej14_Main.s: Ej14/Ej14_Main.c.s
-.PHONY : Ej14/Ej14_Main.s
+1C-2P-2023/Ej3/Ej3_Main.s: 1C-2P-2023/Ej3/Ej3_Main.c.s
+.PHONY : 1C-2P-2023/Ej3/Ej3_Main.s
 
 # target to generate assembly for a file
-Ej14/Ej14_Main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/Ej14/Ej14_Main.c.s
-.PHONY : Ej14/Ej14_Main.c.s
+1C-2P-2023/Ej3/Ej3_Main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/P11.dir/build.make CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3_Main.c.s
+.PHONY : 1C-2P-2023/Ej3/Ej3_Main.c.s
 
 # Help Target
 help:
@@ -234,18 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... P11"
-	@echo "... Ej13/Ej13.o"
-	@echo "... Ej13/Ej13.i"
-	@echo "... Ej13/Ej13.s"
-	@echo "... Ej13/Ej13_Main.o"
-	@echo "... Ej13/Ej13_Main.i"
-	@echo "... Ej13/Ej13_Main.s"
-	@echo "... Ej14/Ej14.o"
-	@echo "... Ej14/Ej14.i"
-	@echo "... Ej14/Ej14.s"
-	@echo "... Ej14/Ej14_Main.o"
-	@echo "... Ej14/Ej14_Main.i"
-	@echo "... Ej14/Ej14_Main.s"
+	@echo "... 1C-2P-2023/Ej3/Ej3.o"
+	@echo "... 1C-2P-2023/Ej3/Ej3.i"
+	@echo "... 1C-2P-2023/Ej3/Ej3.s"
+	@echo "... 1C-2P-2023/Ej3/Ej3_Main.o"
+	@echo "... 1C-2P-2023/Ej3/Ej3_Main.i"
+	@echo "... 1C-2P-2023/Ej3/Ej3_Main.s"
 .PHONY : help
 
 
