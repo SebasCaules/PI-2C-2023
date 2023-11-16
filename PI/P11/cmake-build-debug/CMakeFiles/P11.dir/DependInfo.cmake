@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/d/PI_Backup/PI/P11/Ej10/Ej10.c" "CMakeFiles/P11.dir/Ej10/Ej10.c.o" "gcc" "CMakeFiles/P11.dir/Ej10/Ej10.c.o.d"
-  "/mnt/d/PI_Backup/PI/P11/Ej10/Ej10_Main.c" "CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o" "gcc" "CMakeFiles/P11.dir/Ej10/Ej10_Main.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/Ej13/Ej13.c" "CMakeFiles/P11.dir/Ej13/Ej13.c.o" "gcc" "CMakeFiles/P11.dir/Ej13/Ej13.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/Ej13/Ej13_Main.c" "CMakeFiles/P11.dir/Ej13/Ej13_Main.c.o" "gcc" "CMakeFiles/P11.dir/Ej13/Ej13_Main.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/Ej14/Ej14.c" "CMakeFiles/P11.dir/Ej14/Ej14.c.o" "gcc" "CMakeFiles/P11.dir/Ej14/Ej14.c.o.d"
+  "/mnt/d/PI_Backup/PI/P11/Ej14/Ej14_Main.c" "CMakeFiles/P11.dir/Ej14/Ej14_Main.c.o" "gcc" "CMakeFiles/P11.dir/Ej14/Ej14_Main.c.o.d"
   )
 
 # Targets to which this target links.

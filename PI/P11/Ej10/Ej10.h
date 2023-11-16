@@ -24,6 +24,8 @@ void freeBag(bagADT bag);
 bagADT newBag();
 
 
+void printBag(bagADT bag);
+
 /* Inserta un elemento. Retorna cuántas veces está
 ** elem en el conjunto luego de haberlo insertado (p.e. si es la primera inserción retorna 1).
 */
