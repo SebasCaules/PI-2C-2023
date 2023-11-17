@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "P10::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-P10-Debug-4cd8e7423c232bcf2186.json",
+					"jsonFile" : "target-P10-Debug-fa3ec0f5230dde281403.json",
 					"name" : "P10",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 4
 	}
 }

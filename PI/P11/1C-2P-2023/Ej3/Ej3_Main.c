@@ -11,6 +11,7 @@ int cmpInts(int a, int b) {
 int main(void) {
     elemCountADT ecADT = newElemCount(cmpInts);
     assert(countElem(ecADT, 10) == 1);
+    printEl(ecADT);
     assert(countElem(ecADT, 5 + 5) == 2);
     assert(distinctElems(ecADT) == 1);
     assert(countElem(ecADT, 5) == 1);

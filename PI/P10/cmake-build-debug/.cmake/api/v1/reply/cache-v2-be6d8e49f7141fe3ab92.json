@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "27"
+			"value" : "25"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "7"
+			"value" : "2"
 		},
 		{
 			"name" : "CMAKE_CODEBLOCKS_COMPILER_ID",
@@ -190,7 +190,7 @@
 					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/cc"
 		},
 		{
@@ -823,7 +823,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/share/cmake-3.27"
+			"value" : "/usr/share/cmake-3.25"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",

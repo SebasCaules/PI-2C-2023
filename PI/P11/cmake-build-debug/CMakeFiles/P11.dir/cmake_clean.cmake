@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3.c.o"
-  "CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3.c.o.d"
-  "CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3_Main.c.o"
-  "CMakeFiles/P11.dir/1C-2P-2023/Ej3/Ej3_Main.c.o.d"
+  "CMakeFiles/P11.dir/2C-R2P-2018/Ej3/Ej3.c.o"
+  "CMakeFiles/P11.dir/2C-R2P-2018/Ej3/Ej3.c.o.d"
+  "CMakeFiles/P11.dir/2C-R2P-2018/Ej3/Ej3_Main.c.o"
+  "CMakeFiles/P11.dir/2C-R2P-2018/Ej3/Ej3_Main.c.o.d"
   "P11"
   "P11.pdb"
 )

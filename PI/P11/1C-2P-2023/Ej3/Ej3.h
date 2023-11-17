@@ -16,6 +16,8 @@ typedef int (*compare)(elemtype e1, elemtype e2);
 /* Crea todos los recursos para el TAD
 ** Arranca inicialmente sin elementos.
 */
+
+void printEl(elemCountADT elemCountAdt);
 elemCountADT newElemCount(compare cmp);
 
 /* Registra una aparición de elem y retorna la cantidad actual de
