@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void) {
-    for (long int i = 1; i < 100001; ++i) {
+    int *v = malloc(50000);
+    *v = 1;
+
+
+    for (long int i = 1; i < 11; ++i) {
         if (i % 15 == 0) {
             printf("FizzBuzz\n");
             continue;
@@ -16,4 +21,5 @@ int main(void) {
         }
         printf("%d\n", i);
     }
+    return 0;
 }

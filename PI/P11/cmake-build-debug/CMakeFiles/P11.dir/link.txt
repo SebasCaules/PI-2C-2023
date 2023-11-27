@@ -1,1 +1,1 @@
-/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g "CMakeFiles/P11.dir/2C-R2P-2018/Ej3/Ej3_Main.c.o" "CMakeFiles/P11.dir/2C-R2P-2018/Ej3/Ej3.c.o" -o P11 
+/usr/bin/cc -Wall -pedantic -std=c99 -lm -g -fsanitize=address -g CMakeFiles/P11.dir/FizzBuzz.c.o -o P11 
